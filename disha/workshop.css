@@ -1,0 +1,21 @@
+body{
+	background-color: rgb(0,0,48);
+}
+#image1{
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+.container{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	width: 380px;
+	height: 400px;
+	background-color: white;
+}
+.title{
+	color: rgb(20,231,209);
+	font-size: 25px;
+	font-weight: bold;
+}
