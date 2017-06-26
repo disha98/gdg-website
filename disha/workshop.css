@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 body{
-	  /*background-color: rgb(0,0,48);*/
-		background-color: #1C2842;
-    margin-left: 180px;
+	/*background-color: rgb(0,0,48);*/
+	background-color: #1C2842;
+	margin-left: 180px;
 }
 #modal{
 	display: none; /* Hidden by default */
