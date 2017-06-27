@@ -5,9 +5,31 @@ body{
 		background-color: #1C2842;
     margin-left: 180px;
 }
+#image2{
+	width: 230px;
+	height: 230px;
+	margin-bottom: 25%;
+	float: left;
+	margin-left: 20%;
+}
+.workshop_modal_image{
+   	 width:30%;
+	 height: inherit;
+	 float: left;
+}
+.workshop_modal_title{
+	width: 100%;
+	padding:5px 5px 5px 5px;
+	float:left;
+}
+.workshop_modal_text{
+	width: 50%;
+	float:left;
+	font-size: 30px;
+}
 #modal{
-	display: none; /* Hidden by default */
-    position:fixed;; /* Stay in place */
+	  display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
 		padding-left: 50px;
@@ -21,46 +43,67 @@ body{
     background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
 }
 .modal-content{
-
+    float:left;
 	background-color: rgb(0,0,48);
 	color: #fefefe;
 	/*margin: 15% 15% 15% 15%;*/
-	border: 2px solid rgb(20,231,209);
+	padding:20px 20px 20px 20px;
+	border: 5px solid rgb(20,231,209);
+	border-radius: 5px;
 }
 #close{
 	color: #fefefe;
 	float: right;
 	font-size: 25px;
 }
-#image1{
-	width: 90%;
+.workshop_image{
+	width: 100%;
 	float: left;
-	padding: 13px;
+	padding-bottom: 10px;
 }
-.container{
+.workshop_container{
 	float: left;
-	margin-left: 20px;
+	margin-left: -7%;
+	margin-top: -15%;
 	text-align: center;
-	width: 70%;
+	width: 80%;
 	background-color: white;
+	margin-bottom: 15%;
 }
-.title{
+.workshop_title{
 	color: rgb(20,231,209);
-	font-size: 25px;
+	font-size: 27px;
 	font-weight: bold;
 }
-.cont{
-	margin-left:2%;
+.workshop_cont{
 	float: left;
-	width: 25%;
+	width: 29%; 	 	 
 	height: 50%;
 	padding: 20px;
 }
-.heading{
-	margin-left: 38%;
+.workshop_heading{
+	margin-left: 34%;
+	color: rgb(20,231,209);
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 1%;
+}
+.heading1{
 	color: rgb(20,231,209);
 	font-family: 'Amatic SC', cursive;
 	font-size: 50px;
 	font-weight: bold;
 	margin-top: 2px;
+}
+.workshop_button{
+    background-color: #1C2842; 
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
