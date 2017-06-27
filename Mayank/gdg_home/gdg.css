@@ -1,0 +1,156 @@
+body {
+   
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  color: #313131;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(234deg, #ffffff, #11165c, #5dcde6, #7d37ce, #d72f2f, #ffffff);
+  background-size: 1200% 1200%;
+  /*background: linear-gradient(240deg, #ffffff,#174899, #270b6b, #072290, #43189b,#ffffff);
+  /*background: linear-gradient(240deg, #0e439b, #938de8, #16276e, #43189b, #ffffff);
+  /*background: linear-gradient(234deg, #0e439b, #2ed29b, #16276e, #43189b, #ffffff);*/
+  
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+ul {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  
+  background-color: black;
+  
+  z-index: 1000;
+  opacity: 0.8;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+    float: right;
+}
+
+li a {
+    height: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 30 40 0 40;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+}
+
+li:hover {
+
+  height: 80px;
+  background-color: #333;
+}
+
+li a:hover{
+  height: 60px;
+  color: pink;
+}
+
+.rainbow_toolbar {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 80;
+  width: 100%;
+  z-index: 8001;
+}
+
+.rainbow_detail {
+  float: left;
+  height: 2px;
+  width: 25%;
+}
+
+.part1 {
+  background-color: #afecc3;
+}
+
+.part2 {
+  background-color: #84c3c0;
+}
+
+.part3 {
+  background-color: #d45a68;
+}
+
+.part4{
+  background-color: #ecbf63;
+}
+
+#gdg_icon {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 8px 0 0 -180px;
+  float: left;
+
+}
+
+
+#home {
+  display: inline-block;
+  
+  margin-top: 225px;
+  height: 200px;
+  width: 400px;
+  background-image: url(gdg_home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;  
+  overflow: hidden;
+  
+
+
+}
+
+a {
+  
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
