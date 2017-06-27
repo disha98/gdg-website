@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+body{
+	  /*background-color: rgb(0,0,48);*/
+		background-color: #1C2842;
+    margin-left: 180px;
+}
+#image2{
+	width: 100px;
+	height: 100px;
+	padding: 2px 2px 2px 2px;
+}
+.workshop_modal_image{
+   width:30%;
+	 height: inherit;
+	 float: left;
+}
+.workshop_modal_title{
+	width: 100%;
+	padding:5px 5px 5px 5px;
+	float:left;
+}
+.workshop_modal_text{
+	width: 70%;
+	float:left;
+}
+#modal{
+	  display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+		padding-left: 50px;
+		padding-right: 50px;
+		left: 0;
+    top: 0;
+    /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+}
+.modal-content{
+   float:left;
+	background-color: rgb(0,0,48);
+	color: #fefefe;
+	/*margin: 15% 15% 15% 15%;*/
+	padding:20px 20px 20px 20px;
+	border: 5px solid rgb(20,231,209);
+	border-radius: 5px;
+}
+#close{
+	color: #fefefe;
+	float: right;
+	font-size: 25px;
+}
+#image1{
+	width: 90%;
+	float: left;
+	padding: 13px;
+}
+.container{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	width: 70%;
+	background-color: white;
+}
+.title{
+	color: rgb(20,231,209);
+	font-size: 25px;
+	font-weight: bold;
+}
+.cont{
+	margin-left:2%;
+	float: left;
+	width: 25%; 	 	 
+	height: 50%;
+	padding: 20px;
+}
+.heading{
+	margin-left: 38%;
+	color: rgb(20,231,209);
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 2px;
+}
+.heading1{
+	color: rgb(20,231,209);
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 2px;
+}
