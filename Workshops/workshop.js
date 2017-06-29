@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.title').click(function(){
+  $('button').click(function(){
     $('#modal').css('display' , 'block');
   });
 
