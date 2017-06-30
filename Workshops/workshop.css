@@ -9,7 +9,7 @@ body{
 	width: 270px;
 	height: 270px;
 	float: left;
-	margin-top: -5%;
+	margin-top: -4%;
 	margin-left: 5%;
 }
 
@@ -48,11 +48,11 @@ body{
 }
 
 .workshop_container:hover {
-  box-shadow: 0 0 30px #fff; 
+  box-shadow: 0 0 30px #fff;
 }
 
 @-webkit-keyframes animatetop {
-    from {top: -300px; opacity: 0} 
+    from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
 
@@ -79,6 +79,7 @@ body{
 .workshop_image{
 	width: 100%;
 	float: left;
+  height:280px;
 	padding-bottom: 10px;
 }
 .workshop_container{
@@ -87,6 +88,7 @@ body{
 	margin-top: -15%;
 	text-align: center;
 	width: 80%;
+  height: inherit;
 	background-color: white;
 	margin-bottom: 15%;
 }
