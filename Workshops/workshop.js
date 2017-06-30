@@ -30,9 +30,24 @@ $(document).ready(function(){
                       'heading' : 'workshop6',
                       'imgSrc'  : 'logo.png',
                       'content' : 'workshop6'
+                    },
+        'myBtn7' : {
+                      'heading' : 'workshop7',
+                      'imgSrc'  : 'logo.png',
+                      'content' : 'workshop7'
+                 },
+        'myBtn8' : {
+                      'heading' : 'workshop8',
+                      'imgSrc'  : 'logo.png',
+                      'content' : 'workshop8'
+                    },
+        'myBtn9' : {
+                      'heading' : 'workshop9',
+                      'imgSrc'  : 'logo.png',
+                      'content' : 'workshop9'
                     }
 };
-  $('.workshop_button').click(function(){
+  $('.workshop_cont').click(function(){
     var id_clicked = this.id;
     $('.workshop_modal_textcontent').html(modalContent[id_clicked]['content']);
     $('.workshop_modal_heading').html(modalContent[id_clicked]['heading']);
