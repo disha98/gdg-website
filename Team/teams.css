@@ -17,7 +17,7 @@ h1{
 	font-weight: normal;
 	font-size: 45px;
 	padding-top: 20px;
-	letter-spacing: 0.1 em;
+	letter-spacing: 0.1em;
 	padding-left: 40px;
 }
 
@@ -37,6 +37,10 @@ h1{
 	display: inline-block;
 }
 
+.last-member{
+	margin-left: 500px;
+	margin-top: 50px;
+}
 
 .image{
 	width: 260px;
@@ -46,7 +50,7 @@ h1{
 
 .overlay{
 	opacity:0;
-	transition: .5s ease;
+	transition: 1s ease;
 	border-radius: 100%;
 
 
@@ -54,17 +58,32 @@ h1{
 
 .text{
 	position: relative;
-	left: 95px;
-	bottom: 160px;
+	left: 70px;
+	bottom: 180px;
 	color: white;
+	line-height: 2.4em;
+}
+
+.last-text{
+	position: relative;
+	bottom: 185px;
+	right: 180px;
+	color: white;
+	line-height: 2.4em;
+	
 }
 
 ul{
 	list-style-type: none;
 }
+ul li{
+	position: relative;
+	right: 90px;
+	text-align: center;
+}
 
 .member:hover .image{
-	opacity:0.22;
+	opacity:0.15;
 
 }
 
@@ -72,4 +91,15 @@ ul{
 	opacity: 1;
 
 }
+
+.last-member:hover .image{
+	opacity:0.15;
+
+}
+
+.last-member:hover .overlay{
+	opacity: 1;
+
+}
+
 
