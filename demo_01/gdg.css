@@ -1,0 +1,530 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+
+body {
+   
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  color: #313131;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(234deg, #ffffff, #11165c, #5dcde6, #7d37ce, #d72f2f, #ffffff);
+  background-size: 1200% 1200%;
+  /*background: linear-gradient(240deg, #ffffff,#174899, #270b6b, #072290, #43189b,#ffffff);
+  /*background: linear-gradient(240deg, #0e439b, #938de8, #16276e, #43189b, #ffffff);
+  /*background: linear-gradient(234deg, #0e439b, #2ed29b, #16276e, #43189b, #ffffff);*/
+  
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+ul {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;  
+  background-color: black;  
+  z-index: 1000;
+  opacity: 0.8;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    height: 80px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 30 40 0 40;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+}
+
+.nav li:hover {
+
+  height: 80px;
+  background-color: #333;
+}
+
+.nav li a:hover{
+  height: 60px;
+  color: pink;
+}
+
+.rainbow_toolbar {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 80;
+  width: 100%;
+  z-index: 8001;
+}
+
+.rainbow_detail {
+  float: left;
+  height: 2px;
+  width: 25%;
+}
+
+.part1 {
+  background-color: #afecc3;
+}
+
+.part2 {
+  background-color: #84c3c0;
+}
+
+.part3 {
+  background-color: #d45a68;
+}
+
+.part4{
+  background-color: #ecbf63;
+}
+
+#gdg_icon {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 8px 0 0 -180px;
+  float: left;
+
+}
+
+
+#home {
+  display: inline-block;
+  margin-top: 225px;
+  height: 200px;
+  width: 400px;
+  background-image: url(./static/gdg_home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;  
+  overflow: hidden;
+  
+
+
+}
+
+a {
+  
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#vision {
+    position: inline-block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    z-index: 1;    
+    background-color: #2c3e50;
+    background: linear-gradient(to right, #2c3e50, #4CA1AF); 
+}
+
+#textblock1 {
+    background-color: #000019;
+    height: 40%;
+    margin-top: 175px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 3%;
+}
+
+#textblock2 {
+    background-color: #000019;
+    height: 40%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 3%;
+}
+
+h1 {  
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+
+
+#events {
+    /*background-color: rgb(0,0,48);*/
+    background-color: #1C2842;
+    background-size: contain;
+}
+
+#workshop_heading { 
+  text-align: center;
+  color: rgb(20,231,209);
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: -200px;
+}
+
+.workshop_modal_img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin-top: -15%;
+  margin-left: 2px;
+}
+
+.workshop_modal_title {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-left: 10%;
+
+}
+.workshop_modal_text {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  float: left;
+  font-size: 30px;
+  margin-left: 9%;
+}
+
+.workshop_modal {
+    display: none; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 130px; /* Location of the box */
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    width:100%;/* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.6s;
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.modal-content {
+  float:left;
+  background-color: rgb(0,0,48);
+  color: #fefefe;
+  /*margin: 15% 15% 15% 15%;*/
+  padding:20px 20px 20px 20px;
+  border: 5px solid rgb(20,231,209);
+  border-radius: 5px;
+  width: 90%;
+  height: 60%;
+}
+
+#close {
+  color: #fefefe;
+  float: right;
+  font-size: 25px;
+}
+
+.workshop_image {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 400px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.workshop_container {
+  display: inline-block;
+  margin-top: 5%;
+  text-align: center;
+  width: 80%;
+  height: inherit;
+  background-color: white;
+  margin-bottom: 15%;
+  justify-content: center;
+}
+
+.workshop_container:hover {
+  box-shadow: 0 0 30px #fff;
+  height: 400px;
+}
+
+.workshop_title {
+  color: rgb(20,231,209);
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.workshop_cont {
+
+  display: inline-block;
+  width: 29%;
+  height: 50%;
+  padding: 20px;
+
+}
+
+.workshop_modal_heading {
+  color: rgb(20,231,209);
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+
+#team {
+  background-color: black;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+#hteam {
+  display: inline-block;
+  font-family: Courier, sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  margin-top: 15px;
+  letter-spacing: 0.1em;
+  color: black;
+  
+}
+
+
+.head {
+  height: 80px;
+  width: auto;
+  margin-bottom: 50px;
+  background-color: #99ccff;
+}
+
+
+.member {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  width: 260px;
+ 
+}
+
+.last-member {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px; 
+  width: 260px;
+}
+
+.image {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+}
+
+.overlay {
+  opacity:0;
+  transition: 1s ease;
+  border-radius: 100%;
+
+}
+
+.text {
+  display: inline-block;
+  position: relative;
+  bottom: 180px;
+  color: white;
+  line-height: 2.4em;
+  list-style-type: none;
+}
+
+.last-text {
+  display: inline-block;
+  position: relative;
+  bottom: 180px;
+  color: white;
+  line-height: 2.4em;
+  list-style-type: none;
+  
+}
+
+
+
+ul li{
+
+  
+  right: 90px;
+  text-align: center;
+}
+
+
+.member:hover .image{
+  opacity:0.15;
+
+}
+
+.member:hover .overlay{
+  opacity: 1;
+
+}
+
+.last-member:hover .image{
+  opacity:0.15;
+
+}
+
+.last-member:hover .overlay{
+  opacity: 1;
+
+}
+
+#footer {
+  background-color: black;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 22%;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 0.5px solid white;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: verdana;
+  color: white;
+}
+
+#one {
+  position: absolute;
+  top: 40%;
+  right: 44%;
+  display: inline-block;
+  height: 18%;
+  width: 3%;
+    
+}
+
+#two {
+  position: absolute;
+  top: 40%;
+  right: 54.5%;
+  display: inline-block;
+  height: 18%;
+  width: 3%;
+
+}
+
+#three {
+  position: absolute;
+  top: 40%;
+  right: 49.5%;
+  display: inline-block;
+  height: 18%;
+  width: 3%;
+
+}
+
+img {
+
+    height: 100%;
+    width: 100%;
+}
+
+#text { 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: verdana;
+}
+
+#one:hover {
+  opacity: 0.5;
+}
+
+#two:hover {
+  opacity: 0.5;
+}
+
+#three:hover {
+  opacity: 0.5;
+}
