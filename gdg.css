@@ -2,10 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 
+html,body {
+  margin: 0;
+  padding: 0;
+}
 
-body {
-   
-  display: flex;
+#home_section {
+  border-collapse: collapse;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -54,7 +60,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;  
+  height: 70px;  
   background-color: black;  
   z-index: 1000;
   opacity: 0.8;
@@ -70,11 +76,11 @@ ul {
 }
 
 .nav li a {
-    height: 80px;
+    height: 60px;
     display: block;
     color: white;
     text-align: center;
-    margin: 30 40 0 40;
+    margin: 28 40 0 40;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 600;
@@ -96,7 +102,7 @@ ul {
   display: block;
   position: fixed;
   left: 0;
-  top: 80;
+  top: 70;
   width: 100%;
   z-index: 8001;
 }
@@ -126,25 +132,45 @@ ul {
 #gdg_icon {
   display: inline-block;
   width: 250px;
-  height: 200px;
-  margin: 8px 0 0 -180px;
+  height: 180px;
+  margin: 6px 0 0 -180px;
   float: left;
+}
+
+#logo_text {
+
+  display: inline-block;
+  margin: 8px 0 0 15px;
+  float: left;
+  font-size: 30px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-style: normal;
+  color: white;
 
 }
 
 
 #home {
+
   display: inline-block;
+  position: relative;
   margin-top: 225px;
   height: 200px;
-  width: 400px;
+  width: 460px;
   background-image: url(./static/gdg_home.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;  
-  overflow: hidden;
+  background-size: cover;  
+  overflow: visible;
   
+}
 
+#typewrite {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  font-size: 20px;
 
 }
 
@@ -300,19 +326,20 @@ p {
   display: inline-block;
   float: left;
   width: 100%;
-  height: 400px;
+  height: 280px;
   padding-bottom: 10px;
-  justify-content: center;
+  
 }
 
 .workshop_container {
   display: inline-block;
-  margin-top: 5%;
+  margin-right: 14%;
+  margin-left: 14%;
+  margin-bottom: 15%;
   text-align: center;
   width: 80%;
   height: inherit;
   background-color: white;
-  margin-bottom: 15%;
   justify-content: center;
 }
 
@@ -359,6 +386,7 @@ p {
   font-size: 45px;
   margin-top: 15px;
   letter-spacing: 0.1em;
+  padding-left: 40px;
   color: black;
   
 }
@@ -374,20 +402,20 @@ p {
 
 .member {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 96px;
   margin-right: 40px;
   margin-top: 50px;
   width: 260px;
  
 }
 
-.last-member {
+.last-member{
   display: inline-block;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 50px; 
+  margin-left: 500px;
+  margin-top: 50px;
   width: 260px;
 }
+
 
 .image {
   width: 260px;
@@ -402,30 +430,29 @@ p {
 
 }
 
-.text {
-  display: inline-block;
+.text{
   position: relative;
+  left: 30px;
   bottom: 180px;
   color: white;
   line-height: 2.4em;
   list-style-type: none;
 }
 
-.last-text {
-  display: inline-block;
+.last-text{
   position: relative;
-  bottom: 180px;
+  bottom: 185px;
+  left: 30px;
   color: white;
   line-height: 2.4em;
-  list-style-type: none;
+  list-style-type: none
   
 }
 
 
 
 ul li{
-
-  
+  position: relative;
   right: 90px;
   text-align: center;
 }

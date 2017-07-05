@@ -4,11 +4,14 @@
 
 	<head>
 		<title>GDG Manipal</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<link rel= "stylesheet" type= "text/css" href= "gdg.css">
-		<script src="gdg.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="workshop.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet'>
+		<link rel= "stylesheet" type= "text/css" href= "gdg.css">
+		<script src="text/javascript" src="./scripts/gdg.js"></script>
+		<script type="text/javascript" src="./scripts/smooth_scroll.js"></script>
+		<script type="text/javascript" src="./scripts/workshop.js"></script>
+
 	</head>
 
 	<body>
@@ -16,8 +19,10 @@
 	<section id = "home_section">
 
 		<ul class = "nav">
-		<image id= "gdg_icon" src= "./static/gdg_icon.png" /></image>	
 		<span style= "cursor:pointer">
+			<a href="#home_section"><image id= "gdg_icon" src= "./static/gdg_icon.png" /></image>
+			<p id = "logo_text">Google Developers Group Manipal</p>	
+			</a>
 			<li><a href="#footer">Contact Us</a></li>
 	  		<li><a href="#team">Team</a></li>
 	  		<li><a href= "http://wtm.gdgmanipal.in/">WTM</a></li>
@@ -34,8 +39,8 @@
 		</span>
 		</nav>
 		
-		<div id = "home"></div>
-		<h1>
+		<div id = "home"></div><br>
+		<h1 id = "typewrite">
 	 		<a href=""class="typewrite" data-period="500" data-type='[ "Connect.", "Create.", "Collaborate." ]'>
 	    	<span class="wrap"></span>
 	  		</a>
