@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html,body {
   margin: 0;
@@ -231,36 +229,38 @@ p {
   line-height: 200%;
 }
 
-
-
 #events {
+    font-family: 'Open Sans', sans-serif;
     /*background-color: rgb(0,0,48);*/
     background-color: #1C2842;
     background-size: contain;
+    padding-bottom: 12%;
 }
 
 #workshop_heading {
+  padding-top: 5%;
   text-align: center;
-  color: rgb(20,231,209);
-  font-family: 'Amatic SC', cursive;
-  font-size: 80px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
   font-weight: bold;
   margin-top: -200px;
+  margin-bottom: 1%;
 }
 
 .workshop_modal_img {
   width: 300px;
   height: 400px;
   float: left;
-  margin-top: -15%;
-  margin-left: 2px;
+  margin-top: -12%;
+  margin-left: 0.5%;
 }
 
 .workshop_modal_title {
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin-left: 10%;
+  margin-left: 12%;
 
 }
 .workshop_modal_text {
@@ -268,7 +268,7 @@ p {
   text-align: center;
   width: 60%;
   float: left;
-  font-size: 30px;
+  justify-content: center;
   margin-left: 9%;
 }
 
@@ -305,12 +305,13 @@ p {
 }
 
 .modal-content {
+  font-family: 'Open Sans', sans-serif;
   float:left;
   background-color: rgb(0,0,48);
   color: #fefefe;
   /*margin: 15% 15% 15% 15%;*/
   padding:30px 30px 30px 30px;
-  border: 5px solid rgb(20,231,209);
+  border: 5px solid white;
   border-radius: 5px;
   width: 90%;
   height: 60%;
@@ -336,7 +337,7 @@ p {
   display: inline-block;
   margin-right: 14%;
   margin-left: 14%;
-  margin-bottom: 15%;
+  
   text-align: center;
   width: 80%;
   
@@ -351,24 +352,26 @@ p {
 }
 
 .workshop_title {
-  color: rgb(20,231,209);
+  font-family: 'Open Sans', sans-serif;
+  color: black;
   font-size: 27px;
   font-weight: bold;
 }
 
 .workshop_cont {
-
+  font-family: 'Open Sans', sans-serif;
   display: inline-block;
   width: 25%;
   height: 50%;
   padding: 20px;
   margin:30px 30px 30px 30px ;
+  margin-bottom: 5%;
 }
 
 .workshop_modal_heading {
-  color: rgb(20,231,209);
-  font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 2px;
 }
