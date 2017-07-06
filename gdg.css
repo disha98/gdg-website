@@ -29,13 +29,13 @@ html,body {
   /*background: linear-gradient(240deg, #ffffff,#174899, #270b6b, #072290, #43189b,#ffffff);
   /*background: linear-gradient(240deg, #0e439b, #938de8, #16276e, #43189b, #ffffff);
   /*background: linear-gradient(234deg, #0e439b, #2ed29b, #16276e, #43189b, #ffffff);*/
-  
+
 
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
 
-  
+
 }
 
 @-webkit-keyframes AnimationName {
@@ -48,7 +48,7 @@ html,body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
@@ -60,15 +60,15 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70px;  
-  background-color: black;  
+  height: 70px;
+  background-color: black;
   z-index: 1000;
   opacity: 0.8;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
+
 }
 
 .nav li {
@@ -84,7 +84,7 @@ ul {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 600;
-    
+
 }
 
 .nav li:hover {
@@ -160,9 +160,9 @@ ul {
   background-image: url(./static/gdg_home.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   overflow: visible;
-  
+
 }
 
 #typewrite {
@@ -175,7 +175,7 @@ ul {
 }
 
 a {
-  
+
   color: white;
   font-size: 40px;
   text-decoration: none;
@@ -191,9 +191,9 @@ a {
     left: 0px;
     height: auto;
     width: 100%;
-    z-index: 1;    
+    z-index: 1;
     background-color: #2c3e50;
-    background: linear-gradient(to right, #2c3e50, #4CA1AF); 
+    background: linear-gradient(to right, #2c3e50, #4CA1AF);
 }
 
 #textblock1 {
@@ -217,7 +217,7 @@ a {
     padding: 3%;
 }
 
-h1 {  
+h1 {
   text-align: center;
   color: white;
   font-family: sans-serif;
@@ -239,7 +239,7 @@ p {
     background-size: contain;
 }
 
-#workshop_heading { 
+#workshop_heading {
   text-align: center;
   color: rgb(20,231,209);
   font-family: 'Amatic SC', cursive;
@@ -320,6 +320,7 @@ p {
   color: #fefefe;
   float: right;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .workshop_image {
@@ -328,7 +329,7 @@ p {
   width: 100%;
   height: 280px;
   padding-bottom: 10px;
-  
+
 }
 
 .workshop_container {
@@ -388,7 +389,7 @@ p {
   letter-spacing: 0.1em;
   padding-left: 40px;
   color: black;
-  
+
 }
 
 
@@ -406,7 +407,7 @@ p {
   margin-right: 40px;
   margin-top: 50px;
   width: 260px;
- 
+
 }
 
 .last-member{
@@ -446,7 +447,7 @@ p {
   color: white;
   line-height: 2.4em;
   list-style-type: none
-  
+
 }
 
 
@@ -506,7 +507,7 @@ h3 {
   display: inline-block;
   height: 18%;
   width: 3%;
-    
+
 }
 
 #two {
@@ -535,7 +536,7 @@ img {
     width: 100%;
 }
 
-#text { 
+#text {
   position: absolute;
   bottom: 0;
   width: 100%;

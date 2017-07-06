@@ -68,6 +68,7 @@ $(document).ready(function(){
     $('.workshop_modal_heading').html(modalContent[id_clicked]['heading']);
     $('.workshop_modal_img').attr('src' , modalContent[id_clicked]['imgSrc']);
     $('.workshop_modal').css('display' , 'block');
+    $('#home_section').css('display' , 'none');
   });
 
   $('#close').on('click' , function(){
