@@ -69,18 +69,31 @@
 
 		<!-- Modal -->
 		<div class='workshop_modal'>
-			<div class='modal-content'>
-				<span id="close">x</span><br>
-				<div class="workshop_modal_title"><p class="workshop_modal_heading"></p></div>
-				<div class="workshop_modal_content">
-					<img class='workshop_modal_img' src="">
+			<!-- MAIN DIVISION-->
+
+			<div class='workshop_modal_container'>
+
+        <!-- Image Division -->
+				<div class="workshop_modal_img">
+					<img id="workshop_modal_img_src" src="" alt="">
 				</div>
-				<article class="workshop_modal_text">
-					<p class="workshop_modal_textcontent"></p>
-			 	</article>
+        <!-- Modal Heading And Text -->
+				<div class="workshop_modal_content">
+					<!-- Modal Close Button -->
+					<div class="close">
+						<p id="close-btn">x</p>
+					</div>
+           <!-- Modal Heading-->
+				   <div class="workshop_modal_title">
+					   <p id="workshop_modal_title_para"></p>
+				   </div>
+				   <!-- Modal Text -->
+				   <div class="workshop_modal_text">
+					   <p id="workshop_modal_text_para"></p>
+				   </div>
+				</div>
 			</div>
 		</div>
-
 			<!-- End Modal -->
 
 	  <!-- Event 1 -->
@@ -100,7 +113,7 @@
 		<!-- Event 2 end -->
 
 		<!-- Event 3 -->
-	
+
 		<div class="workshop_cont" id="myBtn3"><div class="workshop_container">
 			<img src="./static/workshop_superdev_meets.jpg" class="workshop_image" id="img3">
 			<h3><font class="workshop_title">Super Dev<br>Meets</font></h3>
