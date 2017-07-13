@@ -274,11 +274,13 @@ p {
 #workshop_modal_text_para{
   font-size: 20px;
   margin-top: -3%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #workshop_modal_title_para{
   font-size: 37px;
   margin-top: -3%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @-webkit-keyframes animatetop {
