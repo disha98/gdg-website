@@ -443,51 +443,51 @@ p {
 
 
 .m-img-1 {
-	background-image: url("/home/nikita/Desktop/GDG/wally.jpg");
+	background-image: url("./images/wally.jpg");
 	background-size: 200px 200px;
 }
 .m-img-2 {
-	background-image: url("/home/nikita/Desktop/GDG/sukriti.jpg");
+	background-image: url("./images/sukriti.jpg");
 	background-size: 200px 200px;
 }
 
 .m-img-3 {
-	background-image: url("/home/nikita/Desktop/GDG/siddy.jpg");
+	background-image: url("./images/siddy.jpg");
 	background-size: 200px 200px;
 }
 
 .m-img-4 {
-	background-image: url("/home/nikita/Desktop/GDG/nari.jpg");
+	background-image: url("./images/nari.jpg");
 	background-size: 200px 200px;
 }
 
 .m-img-5 {
-	background-image: url("/home/nikita/Desktop/GDG/bhargav.jpg");
+	background-image: url("./images/bhargav.jpg");
 	background-size: 200px 200px;
 }
 
 .m-img-6 {
-	background-image: url("/home/nikita/Desktop/GDG/yash.png");
+	background-image: url("./images/yash.png");
 	background-size: 200px 200px;
 }
 
 .m-img-7 {
-	background-image: url("/home/nikita/Desktop/GDG/muskan.png");
+	background-image: url("./images/muskan.png");
 	background-size: 200px 200px;
 }
 
 .m-img-8 {
-	background-image: url("/home/nikita/Desktop/GDG/mehul.png");
+	background-image: url("./images/mehul.png");
 	background-size: 200px 200px;
 }
 
 .m-img-9 {
-	background-image: url("/home/nikita/Desktop/GDG/siddhant.png");
+	background-image: url("./images/siddhant.png");
 	background-size: 200px 200px;
 }
 
 .m-img-10 {
-	background-image: url("/home/nikita/Desktop/GDG/rohit.jpg");
+	background-image: url("./images/rohit.jpg");
 	background-size: 200px 200px
 }
 
