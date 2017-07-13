@@ -19,3 +19,10 @@ $(document).ready(function(){
     } 
   });
 });
+
+$(document).scroll(function () {
+  
+  // parallaxing
+  var $movebg = $(window).scrollTop() * -0.25;
+  $('.portion').css('background-positionY', ($movebg) + 'px');
+});

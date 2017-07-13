@@ -22,13 +22,9 @@ html,body {
   margin-right: auto;
   text-align: center;
   text-decoration: none;
-  background: linear-gradient(234deg, #ffffff, #11165c, #5dcde6, #7d37ce, #d72f2f, #ffffff);
+  background: linear-gradient(234deg, #000000, #0f0847, #0e446b, #560a67, #370a56, #000000);
   background-size: 1200% 1200%;
-  /*background: linear-gradient(240deg, #ffffff,#174899, #270b6b, #072290, #43189b,#ffffff);
-  /*background: linear-gradient(240deg, #0e439b, #938de8, #16276e, #43189b, #ffffff);
-  /*background: linear-gradient(234deg, #0e439b, #2ed29b, #16276e, #43189b, #ffffff);*/
-
-
+  
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
@@ -52,7 +48,7 @@ html,body {
     100%{background-position:0% 50%}
 }
 
-ul {
+.nav {
   display: block;
   position: fixed;
   top: 0;
@@ -127,6 +123,30 @@ ul {
   background-color: #ecbf63;
 }
 
+.portion {
+
+  min-height: 500px;
+  background-image: url('./static/bg-image1.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.portion.two {
+  background-image: url('./static/bg-image2.jpg');
+}
+
+.portion.three {
+  background-image: url('./static/bg-image3.jpg');
+}
+
+.portion.four {
+  background-image: url('./static/bg-image4.jpg');
+}
+
+
 #gdg_icon {
   display: inline-block;
   width: 250px;
@@ -156,7 +176,7 @@ ul {
   height: 200px;
   width: 460px;
   background-image: url(./static/gdg_home.png);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: visible;
