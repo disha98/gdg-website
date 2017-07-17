@@ -249,6 +249,8 @@ p {
   line-height: 200%;
 }
 
+/************************************  Workshops CSS Starts  **********************************/
+
 #events {
     font-family: 'Open Sans', sans-serif;
     /*background-color: rgb(0,0,48);*/
@@ -267,45 +269,21 @@ p {
   margin-top: -200px;
   margin-bottom: 1%;
 }
-
-.workshop_modal_img {
-  width: 300px;
-  height: 400px;
-  float: left;
-  margin-top: -12%;
-  margin-left: 0.5%;
-}
-
-.workshop_modal_title {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  margin-left: 12%;
-
-}
-.workshop_modal_text {
-  display: inline-block;
-  text-align: center;
-  width: 60%;
-  float: left;
-  justify-content: center;
-  margin-left: 9%;
-}
-
+/******************************** MODAL CSS ***********************/
 .workshop_modal {
-    display: none; /* Hidden by default */
-    position:fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 130px; /* Location of the box */
-    padding-left: 50px;
-    padding-right:50px;
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
     left: 0;
     top: 0;
-    width:100%;/* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+    width:100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.85);
 
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -313,6 +291,17 @@ p {
     animation-duration: 0.6s;
 }
 
+#workshop_modal_text_para{
+  font-size: 20px;
+  margin-top: -3%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#workshop_modal_title_para{
+  font-size: 37px;
+  margin-top: -3%;
+  font-family: 'Open Sans', sans-serif;
+}
 
 @-webkit-keyframes animatetop {
     from {top: -300px; opacity: 0}
@@ -324,43 +313,70 @@ p {
     to {top: 0; opacity: 1}
 }
 
-.modal-content {
+.workshop_modal_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   font-family: 'Open Sans', sans-serif;
   float:left;
   background-color: rgb(0,0,48);
   color: #fefefe;
-  /*margin: 15% 15% 15% 15%;*/
-  padding:30px 30px 30px 30px;
+  padding: 0px 0px 0px 0px;
   border: 5px solid white;
   border-radius: 5px;
-  width: 90%;
+  width: 85%;
   height: 60%;
 }
+.workshop_modal_img {
+  display: inline-block;
+  height: inherit;
+  width: 20%;
+  padding-bottom: 50px;
+}
+.workshop_modal_img img{
+  width: 244.08px;
+  height: 299.66px;
+}
+.workshop_modal_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:60%;
+  height: 100%;
+  text-align: center;
+}
+.close{
+  width: 100%;
+  height: 15%;
+  float: right;
 
-#close {
+}
+#close-btn{
   color: #fefefe;
   float: right;
-  font-size: 25px;
   cursor: pointer;
+  font-size: 25px;
+}
+.workshop_modal_title{
+  height:25%;
 }
 
-.workshop_image {
-  display: inline-block;
-  float: left;
-  width: 100%;
-  height: 280px;
+.workshop_modal_text{
+  height:50%;
   padding-bottom: 10px;
-  float: left;
 }
-
+/************************ Modal CSS Ends ********************************/
 .workshop_container {
   display: inline-block;
   margin-right: 14%;
   margin-left: 14%;
-  
+
   text-align: center;
   width: 80%;
-  
+
   background-color: white;
   justify-content: center;
   float: left;
@@ -368,7 +384,6 @@ p {
 
 .workshop_container:hover {
   box-shadow: 0 0 30px #fff;
-  height: 400px;
 }
 
 .workshop_title {
@@ -385,18 +400,17 @@ p {
   height: 50%;
   padding: 20px;
   margin:30px 30px 30px 30px ;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .workshop_modal_heading {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
   font-weight: bold;
   margin-top: 2px;
 }
 
-
+/***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: black;
   display: inline-block;
@@ -553,7 +567,6 @@ h3 {
   width: 3%;
 
 }
-
 img {
 
     height: 100%;
