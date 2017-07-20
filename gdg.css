@@ -488,78 +488,62 @@ ul li{
 
 #footer {
   background-color: black;
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  height: 22%;
+  height: 30%;
   width: 100%;
   margin: 0 auto;
   border-top: 0.5px solid white;
   text-align: center;
 }
-
-h3 {
+h3{
   text-align: center;
-  font-family: verdana;
+  font-family: 'Open Sans', sans-serif;
   color: white;
+  background-color: black;
 }
-
+ul{ 
+  height: auto;
+  width: 100%;
+    background-color: black;
+    list-style: none;
+     display:flex;  
+  list-style:none;
+}
 #one {
-  position: absolute;
-  top: 40%;
-  right: 44%;
-  display: inline-block;
-  height: 18%;
-  width: 3%;
-
+  margin-left: 49%;
 }
-
-#two {
-  position: absolute;
-  top: 40%;
-  right: 54.5%;
-  display: inline-block;
-  height: 18%;
-  width: 3%;
-
+li{
+  padding-right: 1%;
 }
-
-#three {
-  position: absolute;
-  top: 40%;
-  right: 49.5%;
-  display: inline-block;
-  height: 18%;
-  width: 3%;
-
-}
-
-img {
-
-    height: 100%;
-    width: 100%;
-}
-
 #text {
-  position: absolute;
-  bottom: 0;
+  margin: 0;
+  background-color: black;
   width: 100%;
   text-align: center;
-  color: white;
-  font-family: verdana;
+  color: pink;
+  font-family: 'Open Sans', sans-serif;
 }
-
 #one:hover {
   opacity: 0.5;
 }
-
 #two:hover {
   opacity: 0.5;
 }
-
 #three:hover {
   opacity: 0.5;
+}
+#google {
+  font-size: 36px;
+  color: #d34836;
+}
+#fb{
+  color:#3b5998;
+  font-size:36px;
+}
+#youtube{
+  color:#bb0000;
+  font-size:36px;
+}
+#footer-text{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
