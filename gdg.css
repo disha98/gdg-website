@@ -414,18 +414,20 @@ p {
 }
 
 .head{
-	height: 120px;
+	height: 100px;
 	width: auto;
-	margin-bottom: 90px;
+	margin: auto;
 	background-color: #99ccff;
+	padding-bottom: .5%;
 }
 
 .members {
 	padding: 0;
 	list-style: none;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	background-color: #1C2842;
+	margin: auto;
 }
 
 .members li {
