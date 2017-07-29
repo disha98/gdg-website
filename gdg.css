@@ -408,12 +408,13 @@ p {
 	color: black;
 	text-align: left;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	letter-spacing: 0.01em;
 	padding-left: 40px;
 }
 
 .head{
-	height: 100px;
+	height: 120px;
 	width: auto;
 	margin-bottom: 90px;
 	background-color: #99ccff;
@@ -424,6 +425,7 @@ p {
 	list-style: none;
 	display: block;
 	text-align: center;
+	background-color: #1C2842;
 }
 
 .members li {
