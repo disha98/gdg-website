@@ -399,6 +399,7 @@ p {
 }
 
 #hteam {
+  
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 60px;
@@ -413,14 +414,14 @@ p {
 .head{
 	height: 120px;
 	width: auto;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	background-color: #99ccff;
 }
 
 .members {
 	padding: 0;
 	list-style: none;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	background-color: #1C2842;
 }
@@ -428,7 +429,7 @@ p {
 .members li {
 	width: 200px;
 	height: 200px;
-	display: inline-block;
+	display: inline-flex;
 	margin: 40px;
 }
 
@@ -436,7 +437,7 @@ p {
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
-	overflow: hidden;
+	overflow: visible;
 	position: relative;
 }
 
@@ -557,7 +558,7 @@ p {
   list-style:none;
 }
 #one {
-  margin-left: 43.5%;
+  margin-left: 43.7%;
 }
 
 #one,#two,#three {
