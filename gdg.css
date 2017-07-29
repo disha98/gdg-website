@@ -396,26 +396,27 @@ p {
 /***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: #1C2842;
+
 }
 
 #hteam {
-  
+
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 60px;
 	color: black;
 	text-align: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  margin-top: 10px;
 	letter-spacing: 0.01em;
 	padding-left: 40px;
 }
 
 .head{
-	height: 120px;
+	height: 100px;
 	width: auto;
-	margin-bottom: 50px;
+	margin: auto;
 	background-color: #99ccff;
+  padding-top: 5%;
 }
 
 .members {
