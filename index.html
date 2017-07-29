@@ -11,8 +11,10 @@
 		<script type="text/javascript" src="./scripts/gdg.js"></script>
 		<script type="text/javascript" src="./scripts/smooth_scroll.js"></script>
 		<script type="text/javascript" src="./scripts/workshop.js"></script>
+		<link rel="stylesheet" type="text/css" href="templates/font-awesome.min.css">
+		
 
-	</head>
+	</head>`
 
 	<body>
 
@@ -51,7 +53,7 @@
 	<section id = "vision">
 
 		<div id="textblock1">
-		    <h1>What is GDG</h1>
+		    <h1 id = "text1">What is GDG</h1>
 		    <p>Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API.
 		    A GDG can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons </p>
 		</div>
@@ -59,7 +61,7 @@
 		<div class = "portion"></div>
 
 		<div id="textblock2">
-		    <h1>Vision</h1>
+		    <h1 id = "text2">Vision</h1>
 		    <p>We encourage and invite Technology Enthusiasts/Developers/Designers/Interested Students/Professionals to be a part of this amazing community of like minded personalities and come up with innovative and futuristic producy ideas, that is set to re-define the digital culture and people's lives. </p>
 		</div>
 
@@ -73,18 +75,31 @@
 
 		<!-- Modal -->
 		<div class='workshop_modal'>
-			<div class='modal-content'>
-				<span id="close">x</span><br>
-				<div class="workshop_modal_title"><p class="workshop_modal_heading"></p></div>
-				<div class="workshop_modal_content">
-					<img class='workshop_modal_img' src="">
+			<!-- MAIN DIVISION-->
+
+			<div class='workshop_modal_container'>
+
+        <!-- Image Division -->
+				<div class="workshop_modal_img">
+					<img id="workshop_modal_img_src" src="" alt="">
 				</div>
-				<article class="workshop_modal_text">
-					<p class="workshop_modal_textcontent"></p>
-			 	</article>
+        <!-- Modal Heading And Text -->
+				<div class="workshop_modal_content">
+					<!-- Modal Close Button -->
+					<div class="close">
+						<p id="close-btn">&times;</p>
+					</div>
+           <!-- Modal Heading-->
+				   <div class="workshop_modal_title">
+					   <p id="workshop_modal_title_para"></p>
+				   </div>
+				   <!-- Modal Text -->
+				   <div class="workshop_modal_text">
+					   <p id="workshop_modal_text_para"></p>
+				   </div>
+				</div>
 			</div>
 		</div>
-
 			<!-- End Modal -->
 
 	  <!-- Event 1 -->
@@ -104,7 +119,7 @@
 		<!-- Event 2 end -->
 
 		<!-- Event 3 -->
-	
+
 		<div class="workshop_cont" id="myBtn3"><div class="workshop_container">
 			<img src="./static/workshop_superdev_meets.jpg" class="workshop_image" id="img3">
 			<h3><font class="workshop_title">Super Dev<br>Meets</font></h3>
@@ -169,6 +184,19 @@
 
 	  <!-- Event 12 -->
 	  <div class="workshop_cont" id="myBtn12">
+	  <style type="text/css">
+			#workshop_modal_title_para{
+			  font-size: 35px;
+			  margin-top: -3%;
+			  font-family: 'Open Sans', sans-serif;
+			}
+			.workshop_title {
+			  font-family: 'Open Sans', sans-serif;
+			  color: black;
+			  font-size: 24px;
+			  font-weight: bold;
+			}
+	  </style>
 	  <div class="workshop_container">
 	    <img src="./static/workshop_wtm_cloudnext.jpg" class="workshop_image" id="img6">
 	    <h3><font class="workshop_title">Google Cloud Platform <br>And WTM Launch</font></h3>
@@ -307,17 +335,20 @@
 
 	<div class = "portion four"></div>
 
-	<section id="footer">
-        <h3>Contact Us</h3>
-
-         <li id="one"><a href="https://www.facebook.com/GDGManipal/" target="_blank"><img src="./static/fb.png"></a></li>
-         <li id="two"><a href="" target="_blank"><img src="./static/google.png"></a></li>
-         <li id="three"><a href="https://www.youtube.com/channel/UC4m9bidHXn9xE5A0TvqefFA" target="_blank"><img src="./static/youtube.png"></a></li>
-
+	<div id="footer">
+        <h3 id="heading">Contact Us</h3>
+        <ul id="list">
+         <li id="one"><a href="https://www.facebook.com/GDGManipal/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" id="fb"></i>
+</a></li>
+         <li id="two"><a href="" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true" id="google"></i>
+</a></li>
+         <li id="three"><a href="https://www.youtube.com/channel/UC4m9bidHXn9xE5A0TvqefFA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true" id="youtube"></i>
+</a></li>
+   </ul>
    <div id="text">
-   <p><b>Disclaimer:</b> GDG manipal is an independent group; our ideas and the opinions expressed should in no way be linked to Google,the corporation</p>
+   <p id="footer-text"><b>Disclaimer:</b> GDG manipal is an independent group; our ideas and the opinions expressed should in no way be linked to Google,the corporation</p>
    </div>
-   </section>
+   </div>
 
 </body>
 </html>

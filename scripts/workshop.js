@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  // JSON Object containing all the data
   var modalContent={
     'myBtn1' : {
                   'heading' : 'Manipal University Summer Of Code',
@@ -62,18 +62,26 @@ $(document).ready(function(){
                         'content' : 'Introduction to Google Cloud as a platform to host mobile apps and using App Engine for backend. Also had a one hour introduction of GDG Women Community.'
                                 }
 };
+ // Display modal and add the corresponding data
   $('.workshop_cont').click(function(){
     var id_clicked = this.id;
-    $('.workshop_modal_textcontent').html(modalContent[id_clicked]['content']);
-    $('.workshop_modal_heading').html(modalContent[id_clicked]['heading']);
-    $('.workshop_modal_img').attr('src' , modalContent[id_clicked]['imgSrc']);
-    $('.workshop_modal').css('display' , 'block');
+    $('#workshop_modal_text_para').html(modalContent[id_clicked]['content']);
+    $('#workshop_modal_title_para').html(modalContent[id_clicked]['heading']);
+    $('#workshop_modal_img_src').attr('src' , modalContent[id_clicked]['imgSrc']);
+    $('.workshop_modal').css('display' , 'flex');
     $('#home_section').css('display' , 'none');
   });
 
-  $('#close').on('click' , function(){
+ // Close modal with close button
+  $('#close-btn').on('click' , function(){
     $('.workshop_modal').css('display' , 'none');
+    $('#home_section').css('display' , 'inline-block');
   });
 
+   // Close modal on click
+  $('.workshop_modal').on('click' , function(){
+    $('.workshop_modal').css('display' , 'none');
+    $('#home_section').css('display' , 'inline-block');
+  });
 
 });
