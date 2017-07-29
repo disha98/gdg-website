@@ -214,7 +214,7 @@ a {
     background-color: #1C2842;
     height: 40%;
     text-align: center;
-    padding: 5%;
+    padding: 4%;
 }
 
 h1 {
@@ -540,13 +540,13 @@ p {
   border-top: 0.5px solid white;
   text-align: center;
 }
-h3{
+#heading {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
   background-color: black;
 }
-ul{
+#list {
   height: auto;
   width: 100%;
     background-color: black;
@@ -555,7 +555,7 @@ ul{
   list-style:none;
 }
 #one {
-  margin-left: 49%;
+  margin-left: 42%;
 }
 li{
   padding-right: 1%;
