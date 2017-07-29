@@ -217,7 +217,7 @@ a {
     padding: 4%;
 }
 
-h1 {
+#text1,#text2 {
   text-align: center;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -540,7 +540,9 @@ p {
   border-top: 0.5px solid white;
   text-align: center;
 }
-#heading {
+#heading{
+
+  width: auto;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -548,16 +550,17 @@ p {
 }
 #list {
   height: auto;
-  width: 100%;
-    background-color: black;
-    list-style: none;
-     display:flex;
+  width: auto;
+  background-color: black;
+  list-style: none;
+  display: flex;
   list-style:none;
 }
 #one {
-  margin-left: 42%;
+  margin-left: 43.5%;
 }
-li{
+
+#one,#two,#three {
   padding-right: 1%;
 }
 img {
