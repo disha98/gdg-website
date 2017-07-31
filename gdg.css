@@ -209,9 +209,9 @@ a {
 
 #textblock1 {
     background-color: #1C2842;
-    height: 50%;
+    height: 40%;
     text-align: center;
-    padding: 5%;
+    padding: 4%;
 }
 
 #textblock2 {
@@ -222,6 +222,7 @@ a {
 }
 
 #text1,#text2 {
+  margin-top: auto;
   text-align: center;
   color: white;
   font-family: 'Open Sans', sans-serif;
