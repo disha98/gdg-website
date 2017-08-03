@@ -496,42 +496,53 @@ p {
 }
 
 /***************************************Responsive********************************************************/
-
-@media screen and (max-width: 450px)
+@media(max-device-width: 414px)
 		{
 		.workshop_cont {
 		  font-family: 'Open Sans', sans-serif;
 		  display: inline-block;
-		  width: 80%;
-		  height: 70%;
-		  margin: auto;
+		   width: 40%;
+       height: 18%;
+      margin-left: 17px;
+      margin-right: 10px;
+      margin-top: 80px;
 		}
 
 		.workshop_image{
 			height: 250px;
 		}
 
-		.workshop_container h3 {
-		  font-family: 'Open Sans', sans-serif;
-		  color: black;
-		  background-color: white;
-		  font-size: 18px;
-		  font-weight: bold;
+    #workshop_heading {
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0.5%;
+}
 		}
-		.workshop_title{
-			 		font-size: 18px;
-			 	}
-		}
-@media screen and (min-width: 451px) and (max-width: 700px)
+@media(max-device-width: 770px)
 		{
 		.workshop_cont {
 		  font-family: 'Open Sans', sans-serif;
 		  display: inline-block;
-		  width: 40%;
-		  height: 65%;
+		  width: 28%;
+		  height: 27%;
 		  margin: auto;
 		  margin-bottom: -50px;
 		}
+    #workshop_heading {
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 3%;
+}
 
 		.workshop_image{
 			height: 200px;
@@ -548,19 +559,30 @@ p {
 			 		font-size: 5px;
 			 	}
 		}
-@media screen and (min-width: 701px) and (max-width: 1250px)
+@media(max-device-width: 1025px)
 		{
 		.workshop_cont {
 		  font-family: 'Open Sans', sans-serif;
 		  display: inline-block;
 		  width: 27%;
-		  height: 65%;
+		  height: 25%;
 		  margin: auto;
 		}
 
 		.workshop_image{
 			height: 200px;
 		}
+
+    #workshop_heading {
+  padding-top: 5%;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
 
 		.workshop_container h3 {
 		  font-family: 'Open Sans', sans-serif;
@@ -572,7 +594,7 @@ p {
 		.workshop_title{
 			 		font-size: 18px;
 			 	}
-		} 
+		}
 
 /***************************************** Workshops CSS Ends ******************************************/
 #team {
