@@ -495,6 +495,85 @@ p {
   margin-top: 2px;
 }
 
+/***************************************Responsive********************************************************/
+
+@media screen and (max-width: 450px)
+		{
+		.workshop_cont {
+		  font-family: 'Open Sans', sans-serif;
+		  display: inline-block;
+		  width: 80%;
+		  height: 70%;
+		  margin: auto;
+		}
+
+		.workshop_image{
+			height: 250px;
+		}
+
+		.workshop_container h3 {
+		  font-family: 'Open Sans', sans-serif;
+		  color: black;
+		  background-color: white;
+		  font-size: 18px;
+		  font-weight: bold;
+		}
+		.workshop_title{
+			 		font-size: 18px;
+			 	}
+		}
+@media screen and (min-width: 451px) and (max-width: 700px)
+		{
+		.workshop_cont {
+		  font-family: 'Open Sans', sans-serif;
+		  display: inline-block;
+		  width: 40%;
+		  height: 65%;
+		  margin: auto;
+		  margin-bottom: -50px;
+		}
+
+		.workshop_image{
+			height: 200px;
+		}
+
+		.workshop_container h3 {
+		  font-family: 'Open Sans', sans-serif;
+		  color: black;
+		  background-color: white;
+		  font-size: 5px;
+		  font-weight: bold;
+		}
+		.workshop_title{
+			 		font-size: 5px;
+			 	}
+		}
+@media screen and (min-width: 701px) and (max-width: 1250px)
+		{
+		.workshop_cont {
+		  font-family: 'Open Sans', sans-serif;
+		  display: inline-block;
+		  width: 27%;
+		  height: 65%;
+		  margin: auto;
+		}
+
+		.workshop_image{
+			height: 200px;
+		}
+
+		.workshop_container h3 {
+		  font-family: 'Open Sans', sans-serif;
+		  color: black;
+		  background-color: white;
+		  font-size: 18px;
+		  font-weight: bold;
+		}
+		.workshop_title{
+			 		font-size: 18px;
+			 	}
+		} 
+
 /***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: #1C2842;
@@ -635,6 +714,15 @@ p {
 	opacity: 1;
 }
 
+.member:active .info-front{
+	transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.member:active .info-back{
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+}
 
 #footer {
   background-color: black;
