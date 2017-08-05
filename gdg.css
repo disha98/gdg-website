@@ -496,69 +496,9 @@ p {
 }
 
 /***************************************Responsive********************************************************/
-@media(max-device-width: 414px)
-		{
-		.workshop_cont {
-		  font-family: 'Open Sans', sans-serif;
-		  display: inline-block;
-		   width: 70%;
-       height: 28%;
-       margin-left: 80px;
-       margin-top: 120px;
-		}
 
-		.workshop_image{
-			height: 550px;
-		}
 
-    #workshop_heading {
-  padding-top: 5%;
-  text-align: center;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 0.5%;
-}
-		} 
-@media(max-device-width: 720px)
-		{
-		.workshop_cont {
-		  font-family: 'Open Sans', sans-serif;
-		  display: inline-block;
-		  width: 28%;
-		  height: 27%;
-		  margin: auto;
-		  margin-bottom: -50px;
-		}
-    #workshop_heading {
-  padding-top: 5%;
-  text-align: center;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 3%;
-}
-
-		.workshop_image{
-			height: 200px;
-		}
-
-		.workshop_container h3 {
-		  font-family: 'Open Sans', sans-serif;
-		  color: black;
-		  background-color: white;
-		  font-size: 5px;
-		  font-weight: bold;
-		}
-		.workshop_title{
-			 		font-size: 5px;
-			 	}
-		}
-@media(max-device-width: 1025px)
+@media(min-device-width: 1025px)
 		{
 		.workshop_cont {
 		  font-family: 'Open Sans', sans-serif;
@@ -594,6 +534,68 @@ p {
 			 		font-size: 18px;
 			 	}
 		}
+    @media(min-device-width: 720px)
+    		{
+    		.workshop_cont {
+    		  font-family: 'Open Sans', sans-serif;
+    		  display: inline-block;
+    		  width: 28%;
+    		  height: 27%;
+    		  margin: auto;
+    		  margin-bottom: -50px;
+    		}
+        #workshop_heading {
+      padding-top: 5%;
+      text-align: center;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 3%;
+    }
+
+    		.workshop_image{
+    			height: 200px;
+    		}
+
+    		.workshop_container h3 {
+    		  font-family: 'Open Sans', sans-serif;
+    		  color: black;
+    		  background-color: white;
+    		  font-size: 5px;
+    		  font-weight: bold;
+    		}
+    		.workshop_title{
+    			 		font-size: 5px;
+    			 	}
+    		}
+    @media(max-device-width: 414px)
+    		{
+    		.workshop_cont {
+    		  font-family: 'Open Sans', sans-serif;
+    		  display: inline-block;
+    		   width: 70%;
+           height: 28%;
+           margin-left: 80px;
+           margin-top: 120px;
+    		}
+
+    		.workshop_image{
+    			height: 550px;
+    		}
+
+        #workshop_heading {
+      padding-top: 5%;
+      text-align: center;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0.5%;
+    }
+    		}
 /***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: #1C2842;
