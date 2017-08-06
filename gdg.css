@@ -52,6 +52,35 @@ body{
     100%{background-position:0% 50%}
 }
 
+
+.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+
+}
+
+
+.bgimage1 {
+  background-image: url('./static/bg-image1.jpeg');
+}
+
+
+.bgimage2 {
+  background-image: url('./static/bg-image2.jpg');
+}
+.bgimage3 {
+  background-image: url('./static/bg-image3.jpg');
+}
+
+.bgimage4 {
+  background-image: url('./static/bg-image4.jpg');
+}
+
+
 .nav {
   display: block;
   position: fixed;
@@ -96,6 +125,15 @@ body{
   color: pink;
 }
 
+#vertical_nav{
+    
+  display: none;
+  margin: 30;
+  color: white;
+  font-size: 40px;
+
+}
+
 .rainbow_toolbar {
   display: block;
   position: fixed;
@@ -125,29 +163,6 @@ body{
 
 .part4{
   background-color: #ecbf63;
-}
-
-.portion {
-
-  min-height: 500px;
-  background-image: url('./static/bg-image1.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-
-
-.portion.two {
-  background-image: url('./static/bg-image2.jpg');
-}
-
-.portion.three {
-  background-image: url('./static/bg-image3.jpg');
-}
-
-.portion.four {
-  background-image: url('./static/bg-image4.jpg');
 }
 
 
@@ -206,6 +221,128 @@ a {
 }
 
 
+@media only screen and (max-device-width: 414px) {
+
+
+
+.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+ 
+  background-attachment: scroll;
+ 
+}
+
+
+
+.nav {
+
+  display: block;
+  position: fixed;
+  top: -2;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  background-color: black;
+  z-index: 1000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+
+}
+
+
+.nav li  {
+
+  height: 140px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: black;
+  margin: -30 0 0 0;
+  float: none;
+  text-align: center;
+
+
+}
+
+.nav li a {
+
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    overflow: auto;
+
+}
+
+
+#vertical_nav {
+    
+  display: inline-block;
+  float: right;
+  margin: 30;
+  padding: 0.6%;
+  color: white;
+  font-size: 50px;
+
+}
+.rainbow_toolbar {
+
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 120;
+  width: 100%;
+  z-index: 8001;
+}
+
+#gdg_icon {
+
+  display: inline-block;
+  width: 250px;
+  height: 180px;
+  margin: 28px 0 0 -180px;
+  overflow: visible;
+}
+
+#logo_text {
+
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  font-size: 40px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-style: normal;
+  color: white;
+
+}
+
+#home {
+
+  display: inline-block;
+  position: relative;
+  margin: 600px 0 0 0 ;
+  height: 200px;
+  width: 460px;
+  background-image: url(./static/gdg_home.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+
+}
+    
+}
+
+
 
 #textblock1 {
     background-color: #1C2842;
@@ -259,6 +396,7 @@ p {
     background-color: #1C2842;
     background-size: contain;
     padding-bottom: 12%;
+    margin-top: 14.8%;
 }
 
 #workshop_heading {
