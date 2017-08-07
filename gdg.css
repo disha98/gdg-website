@@ -225,6 +225,13 @@ a {
 
 
 
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+
 .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
  
   background-attachment: scroll;
