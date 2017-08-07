@@ -607,7 +607,7 @@ p {
   width: 30%;
   height: 18%;
   display: inline-flex;
-  margin: 5%;
+  padding-left: 5%;
 }
 
 }
@@ -618,7 +618,7 @@ p {
   width: 30%;
   height: 20%;
   display: inline-flex;
-  margin: 5%;
+  padding-left: 5%;
 }
 
 }
