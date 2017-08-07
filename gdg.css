@@ -581,7 +581,7 @@ p {
 	width: auto;
 	margin: auto;
 	background-color: #1C2842;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .members {
@@ -598,7 +598,10 @@ p {
 	width: 17%;
 	height: 31%;
 	display: inline-flex;
-	margin: 3%;
+	padding-left: 5.75%;
+	margin-top: 3%;
+	margin-right: 2%;
+	margin-bottom: 4%;
 }
 
 @media(max-device-width : 414px){
