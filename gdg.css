@@ -590,13 +590,37 @@ p {
 	display: inline-block;
 	text-align: center;
 	background-color: #1C2842;
+  width: 95%;
+  margin-right: 5%;
 }
 
 .members li {
-	width: 200px;
-	height: 200px;
+	width: 17%;
+	height: 31%;
 	display: inline-flex;
-	margin: 40px;
+	margin: 3%;
+}
+
+@media(max-device-width : 414px){
+
+  .members li {
+  width: 30%;
+  height: 18%;
+  display: inline-flex;
+  margin: 5%;
+}
+
+}
+
+@media(max-device-width : 1100px){
+
+  .members li {
+  width: 30%;
+  height: 20%;
+  display: inline-flex;
+  margin: 5%;
+}
+
 }
 
 .member {
@@ -610,51 +634,51 @@ p {
 
 .m-img-1 {
 	background-image: url("./images/wally.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 .m-img-2 {
 	background-image: url("./images/sukriti.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-3 {
 	background-image: url("./images/siddy.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-4 {
 	background-image: url("./images/nari.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-5 {
 	background-image: url("./images/bhargav.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-6 {
 	background-image: url("./images/yash.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-7 {
 	background-image: url("./images/muskan.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-8 {
 	background-image: url("./images/mehul.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-9 {
 	background-image: url("./images/siddhant.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-10 {
 	background-image: url("./images/rohit.jpg");
-	background-size: 200px 200px
+	background-size: 100% 100%;
 }
 
 .info {
@@ -707,7 +731,7 @@ p {
 .member:active .info-back{
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;
-}
+} 
 
 #footer {
   background-color: black;
