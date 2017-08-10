@@ -252,6 +252,7 @@ a {
 
 .nav li  {
 
+  display: none;
   height: 140px;
   width: 100%;
   box-sizing: border-box;
@@ -371,14 +372,25 @@ p {
   font-size: 20px;
   line-height: 200%;
 }
+
 @media(max-device-width: 1200px)
 {
   #textblock1 {
     background-color: #1C2842;
-    height: 20%;
+    height: 100%;
+    width: 100%;
     text-align: center;
     padding: 4%;
 }
+
+#text1 {
+  font-size: 10em;
+}
+  #textblock1 p{
+    font-size: 3em;
+}
+
+
 
 #textblock2 {
     background-color: #1C2842;
