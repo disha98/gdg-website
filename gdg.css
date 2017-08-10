@@ -349,6 +349,8 @@ a {
   width: 100%;
   padding: 10%;
 }
+
+
     
 }
 
@@ -439,6 +441,29 @@ p {
       height: 100%;
       width: 100%;
     }
+    #footer{
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+    }
+    #footer p{
+      font-size: 2em;
+      color: white;
+    }
+    #cont{
+      color: white;
+      font-size: 10em;
+    }
+    #team {
+      /*background-color: #1C2842;*/
+      width: 100%;
+      padding: 10%;
+
+  }
+}
+#cont{
+  color: white;
+  font-size: 3em;
 }
 
 #workshop_heading {
@@ -747,6 +772,8 @@ p {
 /***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: #1C2842;
+  width: 80%;
+  padding: 10%;
 
 }
 
@@ -763,10 +790,11 @@ p {
 
 .head{
 	height: 100px;
-	width: auto;
+	width: 100%;
 	margin: auto;
 	background-color: #1C2842;
   padding-top: 3%;
+  padding: 10%;
 }
 
 .members {
@@ -775,7 +803,7 @@ p {
 	display: inline-block;
 	text-align: center;
 	background-color: #1C2842;
-  width: 95%;
+  width: 100%;
   margin-right: 5%;
 }
 
@@ -792,10 +820,19 @@ p {
 @media(max-device-width : 414px){
 
   .members li {
-  width: 30%;
+  width: 80%;
   height: 18%;
   display: inline-flex;
   padding-left: 5%;
+}
+
+.member {
+  width: 100%;
+}
+
+.manager{
+  width: 20em;
+  font-size: 20em;
 }
 
 }
@@ -957,14 +994,14 @@ img {
     height: 100%;
     width: 100%;
 }
-#text {
-  margin: 0;
-  background-color: black;
-  width: 100%;
-  text-align: center;
-  color: pink;
-  font-family: 'Open Sans', sans-serif;
-}
+/*#text {*/
+  /*margin: 0;*/
+  /*background-color: black;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+  /*color: pink;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+/*}*/
 #one:hover {
   opacity: 0.5;
 }
@@ -986,20 +1023,18 @@ img {
   color:#bb0000;
   font-size:36px;
 }
-#footer-text{
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-}
+
 
 @media(max-device-width: 1200px)
 {
   #footer {
   background-color: black;
-  height: 15%;
+  height: 60%;
   width: 100%;
   margin: 0 auto;
   border-top: 0.5px solid white;
   text-align: center;
+  font-size: 2em;
 }
 #one {
   margin-left: 41.7%;
