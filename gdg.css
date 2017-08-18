@@ -54,7 +54,7 @@ body{
 }
 
 
-.bgimage0, .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+.bgimage1, .bgimage2, .bgimage3, .bgimage4, .bgimage5 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -64,9 +64,6 @@ body{
 
 }
 
-.bgimage0 {
-  background-image: url('./static/bg-image4.jpg');
-}
 
 .bgimage1 {
   background-image: url('./static/bg-image1.jpeg');
@@ -82,6 +79,11 @@ body{
 
 .bgimage4 {
   background-image: url('./static/bg-image4.jpg');
+}
+
+.bgimage5 {
+  background-image: url('./static/bg-image5.jpg');
+  min-height: 400px;
 }
 
 
@@ -228,7 +230,8 @@ a {
 @media only screen and (max-device-width: 414px) {
 
 
-.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+
+.bgimage1, .bgimage2, .bgimage3, .bgimage4, .bgimage5 {
  
   background-attachment: scroll;
   padding: 10%;
@@ -577,7 +580,6 @@ p {
   width: 20%;
   margin-top: -1em;
   margin-left: -1.5em;
-  /*padding-bottom: 50px;*/
 }
 .workshop_modal_img img{
   width: 100%;
@@ -777,7 +779,7 @@ p {
           font-size: 5px;
           font-weight: bold;
         }
-        }
+  }
     @media(max-device-width: 414px)
         {
         .workshop_cont {
@@ -805,10 +807,12 @@ p {
       margin-bottom: 0.5%;
     }
         }
-/***************************************** Workshops CSS Ends***********************************/
+
+/***************************************** Workshops CSS Ends ******************************************/
 #team {
   background-color: #1C2842;
-  width: 100%;
+  width: 80%;
+  padding: 10%;
 }
 
 #hteam {
@@ -818,8 +822,6 @@ p {
 	font-size: 60px;
 	color: white;
 	text-align: center;
-	margin-top :0px;
-	padding-top: 3%;
 }
 
 .members {
@@ -829,14 +831,7 @@ p {
 	text-align: center;
 	background-color: #1C2842;
   width: 100%;
-}
 
-.members li {
-	width: 14%;
-	height: 27%;
-	display: inline-flex;
-	padding-left: 5%;
-	margin-right: 5%;
 	margin-bottom: 4%;
 }
 
@@ -864,8 +859,7 @@ p {
 
   .members li {
   width: 30%;
-  height: 30%;
-  display: inline-flex;
+
 }
 
 }

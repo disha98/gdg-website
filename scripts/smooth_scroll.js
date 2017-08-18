@@ -18,11 +18,12 @@ $(document).ready(function(){
       });
     } 
   });
+
+    
+
+    $("#vertical_nav").click(function(){
+          $(".nav li").toggle();
+
+    });
 });
 
-$(document).scroll(function () {
-  
-  // parallaxing
-  var $movebg = $(window).scrollTop() * -0.18;
-  $('.portion').css('background-positionY', ($movebg) + 'px');
-});
