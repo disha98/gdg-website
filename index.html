@@ -1,5 +1,4 @@
-
-<DOCTYPE! html>
+<!-- <!DOCTYPE html> -->
 <html>
 
 	<head>
@@ -14,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="templates/font-awesome.min.css">
 
 
-	</head>`
+	</head>
 
 	<body>
 
@@ -25,11 +24,14 @@
 			<a href="#home_section"><image id= "gdg_icon" src= "./static/gdg_icon.png" /></image>
 			<p id = "logo_text">Google Developers Group Manipal</p>
 			</a>
+			<i class="fa fa-bars" id = "vertical_nav"></i>
+			<div id="navbar">
 			<li><a href="#footer">Contact Us</a></li>
 	  		<li><a href="#team">Team</a></li>
 	  		<li><a href= "http://wtm.gdgmanipal.in/">WTM</a></li>
 	  		<li><a href="#events">Events</a></li>
 	  		<li><a href="#vision">About</a></li>
+	  		</div>
 		</ul>
 
 		<div class= "rainbow_toolbar">
@@ -50,15 +52,17 @@
 
 	</section>
 
+	
+
 	<section id = "vision">
 
 		<div id="textblock1">
-		    <h1 id = "text1">What is GDG</h1>
+		    <h1 id = "text1">What is GDG?</h1>
 		    <p>Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API.
 		    A GDG can take many forms -- from just a few people getting together to watch our latest video, to large gatherings with demos and tech talks, to events like code sprints and hackathons </p>
 		</div>
 
-		<div class = "portion"></div>
+		<div class = "bgimage1"></div>
 
 		<div id="textblock2">
 		    <h1 id = "text2">Vision</h1>
@@ -68,7 +72,7 @@
 
 	</section>
 
-	<div class = "portion two"></div>
+	<div class = "bgimage2"></div>
 
 	<section id = "events">
 		<h2 id="workshop_heading">Our Events</h2>
@@ -104,13 +108,13 @@
 			</div>
 		</div>
 			<!-- End Modal -->
-
-	  <!-- Event 1 -->
-		<div class="workshop_cont" id="myBtn1"><div class="workshop_container">
-			<img src="./static/workshop_musoc.jpg" class="workshop_image" id="img1">
-			<h3><font class="workshop_title">Manipal University Summer Of Code</font></h3>
+	
+	  <!-- Event 10 -->
+		<div class="workshop_cont" id="myBtn10"><div class="workshop_container">
+			<img src="./static/workshop_polymer_hackathon.png" class="workshop_image" id="img6">
+			<h3><font class="workshop_title">Polymer <br> Hackathon</font></h3>
 		</div></div>
-	   <!-- Event 1 end -->
+		<!-- Event 10 end -->
 
 	   <!-- Event 2 -->
 		<div class="workshop_cont" id="myBtn2">
@@ -164,57 +168,44 @@
 		</div></div>
 		<!-- Event 8 end -->
 
-		<!-- Event 9 -->
-		<div class="workshop_cont" id="myBtn9"><div class="workshop_container">
-			<img src="./static/workshop_webdev.png" class="workshop_image" id="img6">
-			<h3><font class="workshop_title">HTML And Javascript <br> Workshop</font></h3>
-		</div></div>
-		<!-- Event 9 end -->
-
-	  <!-- Event 10 -->
-		<div class="workshop_cont" id="myBtn10"><div class="workshop_container">
-			<img src="./static/workshop_polymer_hackathon.png" class="workshop_image" id="img6">
-			<h3><font class="workshop_title">Polymer <br> Hackathon</font></h3>
-		</div></div>
-		<!-- Event 10 end -->
-
-	  <!-- Event 11 -->
+<!-- Event 11 -->
 		<div class="workshop_cont" id="myBtn11"><div class="workshop_container">
 			<img src="./static/workshop_androidwear_hackathon.jpg" class="workshop_image" id="img6">
 			<h3><font class="workshop_title">Android Wear <br> Hackathon</font></h3>
 		</div></div>
 		<!-- Event 11 end -->
+		
+		<!-- Event 9 -->
+		<div class="workshop_cont" id="myBtn9"><div class="workshop_container">
+			<img src="./static/workshop_webdev.png" class="workshop_image" id="img6">
+			<h3  style="font-size: 24px;"><font class="workshop_title">HTML <br>And Javascript <br> Workshop</font></h3>
+		</div></div>
+		<!-- Event 9 end -->
+
+		<!-- Event 1 -->
+		<div class="workshop_cont" id="myBtn1"><div class="workshop_container">
+			<img src="./static/workshop_musoc.jpg" class="workshop_image" id="img1">
+			<h3 style="font-size: 24px;"><font class="workshop_title">Manipal<br> University <br> Summer Of Code</font></h3>
+		</div></div>
+	   <!-- Event 1 end -->
 
 	  <!-- Event 12 -->
 	  <div class="workshop_cont" id="myBtn12">
-	  <style type="text/css">
-			#workshop_modal_title_para{
-			  font-size: 35px;
-			  margin-top: -3%;
-			  font-family: 'Open Sans', sans-serif;
-			}
-			.workshop_title {
-			  font-family: 'Open Sans', sans-serif;
-			  color: black;
-			  font-size: 24px;
-			  font-weight: bold;
-			}
-	  </style>
 	  <div class="workshop_container">
 	    <img src="./static/workshop_wtm_cloudnext.jpg" class="workshop_image" id="img6">
-	    <h3><font class="workshop_title">Google Cloud Platform <br>And WTM Launch</font></h3>
+	    <h3 style="font-size: 24px;"><font class="workshop_title">Google Cloud Platform <br>And WTM Launch</font></h3>
 	  </div></div>
 	  <!-- Event 12 end -->
 	</section>
 
-	<div class = "portion three"></div>
+	<div class = "bgimage3"></div>
 
 	<section id = "team">
-		<div class = "head">
+		<!-- <div class = "head"> -->
 			<h1 id = "hteam"> Team </h1>
-		</div>
+		<!-- </div> -->
 		<ul class = "members">
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-1"> </div>
@@ -225,7 +216,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-2"> </div>
@@ -237,7 +228,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-3"> </div>
@@ -249,7 +240,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-4"> </div>
@@ -261,7 +252,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-5"> </div>
@@ -273,7 +264,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-6"> </div>
@@ -285,7 +276,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-7"> </div>
@@ -297,7 +288,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-8"> </div>
@@ -309,7 +300,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-9"> </div>
@@ -321,7 +312,7 @@
 				</div>
 			</div>
 		</li>
-		<li>
+		<li class="managers">
 			<div class = "member">
 				<div class = "info">
 					<div class = "info-front m-img-10"> </div>
@@ -336,21 +327,23 @@
 	</ul>
 	</section>
 
-	<div class = "portion four"></div>
+	<div class = "bgimage4"></div>
 
 	<div id="footer">
-        <h3 id="heading">Contact Us</h3>
-        <ul id="list">
-         <li id="one"><a href="https://www.facebook.com/GDGManipal/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" id="fb"></i>
-</a></li>
-         <li id="two"><a href="" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true" id="google"></i>
-</a></li>
-         <li id="three"><a href="https://www.youtube.com/channel/UC4m9bidHXn9xE5A0TvqefFA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true" id="youtube"></i>
-</a></li>
-   </ul>
-   <div id="text">
-   <p id="footer-text"><b>Disclaimer:</b> GDG manipal is an independent group; our ideas and the opinions expressed should in no way be linked to Google,the corporation</p>
-   </div>
+		<span id="cont">Contact Us</span>
+	<p><strong>Disclaimer:</strong> GDG manipal is an independent group; our ideas and the opinions expressed should in no way be linked to Google, the corporation.</p>
+	        
+	        <ul id="list">
+	         <li id="one"><a href="https://www.facebook.com/GDGManipal/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" id="fb"></i>
+	</a></li>
+	      <li id="two"><a href="" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true" id="google"></i>
+	</a></li>
+	         <li id="three"><a href="https://www.youtube.com/channel/UC4m9bidHXn9xE5A0TvqefFA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true" id="youtube"></i>
+	</a></li>
+	   </ul>
+	   <!-- <div id="text"> -->
+	   
+	   <!-- </div> -->
    </div>
 
 </body>
