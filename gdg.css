@@ -873,8 +873,8 @@ p {
 
   #team
   {
-    margin-right: -20%;
     padding-left:0;
+    margin-right: -20%;
   }
 
 
@@ -883,38 +883,43 @@ p {
     
   } 
 
-
-  .members {
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    background-color: #1C2842;
-  }
-
-   .managers {
-    width: 90%;
-    height: 30%;
-    display: inline-block;
-    margin-top : 2%;
-    margin-bottom: 3%;
-  }
-
   .members li{
-    margin-left: -6%;
-    margin-right: 18%;
+    margin-right: 5%;
+    margin-left: 8%;
   }
 
 }
 
 @media(max-device-width : 1100px){
 
-  .members li {
-  width: 30%;
-  height: 20%;
-  display: inline-block;
-  padding-left: 5%;
+  #team
+  {
+    padding-left:0;
+    margin-right: -20%;
   }
-}
+
+
+  .team_section{
+    padding-left: 0;
+    
+  } 
+
+  .members li{
+    padding-left: 5%;
+    
+  }
+
+  .managers {
+    width: 32%;
+    height: 30%;
+    display: inline-block;
+    margin-top : 2%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    margin-left: 3%;
+  }
+
+} 
 
 
 .member {
