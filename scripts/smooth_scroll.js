@@ -19,7 +19,7 @@ $(document).ready(function(){
     } 
   });
 
-    $(".nav li").show();
+    
 
     $("#vertical_nav").click(function(){
           $(".nav li").toggle();

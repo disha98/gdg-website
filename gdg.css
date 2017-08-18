@@ -53,7 +53,7 @@ body{
 }
 
 
-.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+.bgimage1, .bgimage2, .bgimage3, .bgimage4, .bgimage5 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -79,6 +79,12 @@ body{
 .bgimage4 {
   background-image: url('./static/bg-image4.jpg');
 }
+
+.bgimage5 {
+  background-image: url('./static/bg-image5.jpg');
+  min-height: 400px;
+}
+
 
 
 .nav {
@@ -224,7 +230,7 @@ a {
 @media only screen and (max-device-width: 414px) {
 
 
-.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+.bgimage1, .bgimage2, .bgimage3, .bgimage4, .bgimage5 {
  
   background-attachment: scroll;
   padding: 10%;
