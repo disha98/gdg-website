@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html,body {
-  margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 body{
   margin-top: -15;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #home_section {
@@ -52,6 +53,38 @@ body{
     100%{background-position:0% 50%}
 }
 
+
+.bgimage0, .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+
+}
+
+.bgimage0 {
+  background-image: url('./static/bg-image4.jpg');
+}
+
+.bgimage1 {
+  background-image: url('./static/bg-image1.jpeg');
+}
+
+
+.bgimage2 {
+  background-image: url('./static/bg-image2.jpg');
+}
+.bgimage3 {
+  background-image: url('./static/bg-image3.jpg');
+}
+
+.bgimage4 {
+  background-image: url('./static/bg-image4.jpg');
+}
+
+
 .nav {
   display: block;
   position: fixed;
@@ -96,6 +129,15 @@ body{
   color: pink;
 }
 
+#vertical_nav{
+    
+  display: none;
+  margin: 30;
+  color: white;
+  font-size: 40px;
+
+}
+
 .rainbow_toolbar {
   display: block;
   position: fixed;
@@ -125,29 +167,6 @@ body{
 
 .part4{
   background-color: #ecbf63;
-}
-
-.portion {
-
-  min-height: 500px;
-  background-image: url('./static/bg-image1.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-
-
-.portion.two {
-  background-image: url('./static/bg-image2.jpg');
-}
-
-.portion.three {
-  background-image: url('./static/bg-image3.jpg');
-}
-
-.portion.four {
-  background-image: url('./static/bg-image4.jpg');
 }
 
 
@@ -206,6 +225,166 @@ a {
 }
 
 
+@media only screen and (max-device-width: 414px) {
+
+
+.bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+ 
+  background-attachment: scroll;
+  padding: 10%;
+  width: 100%;
+ 
+}
+
+
+
+  #navbar{
+    display: none;
+  }
+
+  #navbar .icon {
+      display: none;
+  }
+
+  #navbar a:not(:first-child) {display: none;}
+
+  #navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+#navbar.responsive {position: relative;}
+  #navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+.nav {
+
+  display: block;
+  position: fixed;
+  top: -2;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  background-color: black;
+  z-index: 1000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+
+}
+
+
+.nav li  {
+
+  display: none;
+  height: 140px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: black;
+  margin: -30 0 0 0;
+  float: none;
+  text-align: center;
+
+
+}
+
+.nav li a {
+
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    overflow: auto;
+
+}
+
+
+#vertical_nav {
+    
+  display: inline-block;
+  float: right;
+  margin: 30;
+  padding: 0.6%;
+  color: white;
+  font-size: 50px;
+
+}
+.rainbow_toolbar {
+
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 120;
+  width: 100%;
+  z-index: 8001;
+}
+
+#gdg_icon {
+
+  display: inline-block;
+  width: 250px;
+  height: 180px;
+  margin: 28px 0 0 -180px;
+  overflow: visible;
+}
+
+#logo_text {
+
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  float: left;
+  font-size: 40px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-style: normal;
+  color: white;
+
+}
+
+#home {
+
+  display: inline-block;
+  position: relative;
+  margin: 600px 0 0 0 ;
+  height: 200px;
+  width: 460px;
+  background-image: url(./static/gdg_home.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+
+}
+
+#home_section {
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+}
+
+
+    
+}
+
+
 
 #textblock1 {
     background-color: #1C2842;
@@ -236,6 +415,42 @@ p {
   line-height: 200%;
 }
 
+@media(max-device-width: 1200px)
+{
+  #textblock1 {
+    background-color: #1C2842;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+}
+
+#text1 {
+  font-size: 10em;
+}
+  #textblock1 p{
+    font-size: 3em;
+}
+
+
+
+#textblock2 {
+    background-color: #1C2842;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /*padding-top: 30%;*/
+    padding: 10%;
+}
+
+#text2 {
+  font-size: 10em;
+}
+  #textblock2 p{
+    font-size: 3em;
+}
+
+}
 /************************************  Workshops CSS Starts  **********************************/
 
 #events {
@@ -243,11 +458,47 @@ p {
     /*background-color: rgb(0,0,48);*/
     background-color: #1C2842;
     background-size: contain;
-    padding-bottom: 12%;
+    padding-top: 10%;
+    /*padding-left: 10%;*/
+    width: 100%;
+    padding-bottom : 5%;
+    /*margin-top: 14.8%;*/
+}
+@media only screen and (max-device-width: 414px) {
+    #events {
+      padding: 10%;
+    }
+    .workshop_modal_img{
+      height: 100%;
+      width: 100%;
+    }
+    #footer{
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+    }
+    #footer p{
+      font-size: 2em;
+      color: white;
+    }
+    #cont{
+      color: white;
+      font-size: 10em;
+    }
+    #team {
+      /*background-color: #1C2842;*/
+      width: 100%;
+      padding: 10%;
+
+  }
+}
+#cont{
+  color: white;
+  font-size: 3em;
 }
 
 #workshop_heading {
-  padding-top: 5%;
+  padding-top: 8%;
   text-align: center;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -279,14 +530,18 @@ p {
 }
 
 #workshop_modal_text_para{
-  font-size: 18px;
-  margin-top: -3%;
+  font-size: 20px;
+  margin-top: -7%;
+  margin-left: -3%;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
 #workshop_modal_title_para{
-  font-size: 33px;
+  font-size: 35px;
   margin-top: -3%;
+  margin-left: -3%;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -311,20 +566,22 @@ p {
   background-color: rgb(0,0,48);
   color: #fefefe;
   padding: 0px 0px 0px 0px;
-  border: 5px solid white;
-  border-radius: 5px;
+  border: 3px solid white;
+  border-radius: 4px;
   width: 85%;
   height: 60%;
 }
 .workshop_modal_img {
   display: inline-block;
-  height: 80%;
-  width: 25%;
-  padding-bottom: 50px;
+  height: 90%;
+  width: 20%;
+  margin-top: -1em;
+  margin-left: -1.5em;
+  /*padding-bottom: 50px;*/
 }
 .workshop_modal_img img{
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .workshop_modal_description
 {
@@ -343,7 +600,7 @@ p {
   align-items:space-between;
   flex-wrap: nowrap;
   width:100%;
-  height: 75%;
+  height: 90%;
   text-align: center;
 }
 .close{
@@ -389,7 +646,7 @@ p {
     border: 2px solid white;
     border-radius: 5px;
     width: 85%;
-    height: 90%;
+    height: 100%;
     margin: auto;
   }
   .close{
@@ -451,6 +708,10 @@ p {
   float: left;
 }
 
+.workshop_image {
+  height: 300px;
+}
+
 .workshop_container:hover {
   box-shadow: 0 0 30px #fff;
 }
@@ -466,11 +727,10 @@ p {
 .workshop_cont {
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
-  width: 25%;
-  height: 50%;
+  width: 24%;
+  height: 65%;
   padding: 20px;
-  margin:30px 30px 30px 30px ;
-  margin-bottom: 7%;
+  margin:30px 30px 0px 40px ;
 }
 
 .workshop_modal_heading {
@@ -480,10 +740,75 @@ p {
   margin-top: 2px;
 }
 
-/***************************************** Workshops CSS Ends ******************************************/
+/***************************************Responsive********************************************************/
+
+ @media(max-device-width: 1100px)
+        {
+        .workshop_cont {
+          font-family: 'Open Sans', sans-serif;
+          display: inline-block;
+          width: 40%;
+          height: 32%;
+          margin: auto;
+          margin-left: 3%;
+        }
+        #workshop_heading {
+      padding-top: 5%;
+      text-align: center;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 3%;
+    }
+
+        .workshop_image{
+          /*height: 320px;*/
+          height: 100%;
+          width: 100%
+
+        }
+
+        .workshop_container h3 {
+          font-family: 'Open Sans', sans-serif;
+          color: black;
+          background-color: white;
+          font-size: 5px;
+          font-weight: bold;
+        }
+        }
+    @media(max-device-width: 414px)
+        {
+        .workshop_cont {
+          font-family: 'Open Sans', sans-serif;
+          display: inline-block;
+           width: 100%;
+           height: 75%;
+           margin-left: -4%;
+           margin-top: 10%;
+        }
+
+        .workshop_image{
+          height: 100%;
+          width: 100%
+        }
+
+        #workshop_heading {
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 0px;
+      margin-bottom: 0.5%;
+    }
+        }
+/***************************************** Workshops CSS Ends***********************************/
 #team {
   background-color: #1C2842;
-
+  width: 100%;
 }
 
 #hteam {
@@ -493,16 +818,8 @@ p {
 	font-size: 60px;
 	color: white;
 	text-align: center;
-  margin-top: 10px;
-	padding-left: 40px;
-}
-
-.head{
-	height: 100px;
-	width: auto;
-	margin: auto;
-	background-color: #1C2842;
-  padding-top: 5%;
+	margin-top :0px;
+	padding-top: 3%;
 }
 
 .members {
@@ -511,13 +828,46 @@ p {
 	display: inline-block;
 	text-align: center;
 	background-color: #1C2842;
+  width: 100%;
 }
 
 .members li {
-	width: 200px;
-	height: 200px;
+	width: 14%;
+	height: 27%;
 	display: inline-flex;
-	margin: 40px;
+	padding-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+
+@media(max-device-width : 414px){
+
+  .members li {
+  width: 80%;
+  height: 18%;
+  display: inline-flex;
+  padding-left: 5%;
+}
+
+.member {
+  width: 100%;
+}
+
+.manager{
+  width: 20em;
+  font-size: 20em;
+}
+
+}
+
+@media(max-device-width : 1100px){
+
+  .members li {
+  width: 30%;
+  height: 30%;
+  display: inline-flex;
+}
+
 }
 
 .member {
@@ -531,51 +881,51 @@ p {
 
 .m-img-1 {
 	background-image: url("./images/wally.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 .m-img-2 {
 	background-image: url("./images/sukriti.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-3 {
 	background-image: url("./images/siddy.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-4 {
 	background-image: url("./images/nari.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-5 {
 	background-image: url("./images/bhargav.jpg");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-6 {
 	background-image: url("./images/yash.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-7 {
 	background-image: url("./images/muskan.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-8 {
 	background-image: url("./images/mehul.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-9 {
 	background-image: url("./images/siddhant.png");
-	background-size: 200px 200px;
+	background-size: 100% 100%;
 }
 
 .m-img-10 {
 	background-image: url("./images/rohit.jpg");
-	background-size: 200px 200px
+	background-size: 100% 100%;
 }
 
 .info {
@@ -620,6 +970,16 @@ p {
 	opacity: 1;
 }
 
+.member:active .info-front{
+	transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+	opacity: 0;
+}
+
+.member:active .info-back{
+	transform: rotate3d(1,0,0,0deg);
+	opacity: 1;
+} 
+
 #footer {
   background-color: black;
   height: 30%;
@@ -627,9 +987,11 @@ p {
   margin: 0 auto;
   border-top: 0.5px solid white;
   text-align: center;
+  padding-top : 2%;
+  font-family: 'Open Sans', sans-serif;
 }
-#heading{
 
+#heading{
   width: auto;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -643,6 +1005,7 @@ p {
   list-style: none;
   display: flex;
   list-style:none;
+  margin-bottom: 0px;
 }
 #one {
   margin-left: 43.7%;
@@ -650,20 +1013,21 @@ p {
 
 #one,#two,#three {
   padding-right: 1%;
+  padding-bottom : 1.5%;
 }
 img {
 
     height: 100%;
     width: 100%;
 }
-#text {
-  margin: 0;
-  background-color: black;
-  width: 100%;
-  text-align: center;
-  color: pink;
-  font-family: 'Open Sans', sans-serif;
-}
+/*#text {*/
+  /*margin: 0;*/
+  /*background-color: black;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+  /*color: pink;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+/*}*/
 #one:hover {
   opacity: 0.5;
 }
@@ -685,7 +1049,20 @@ img {
   color:#bb0000;
   font-size:36px;
 }
-#footer-text{
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+
+
+@media(max-device-width: 1200px)
+{
+  #footer {
+  background-color: black;
+  height: 60%;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 0.5px solid white;
+  text-align: center;
+  font-size: 2em;
+}
+#one {
+  margin-left: 41.7%;
+}
 }
