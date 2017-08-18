@@ -57,7 +57,7 @@ $(document).ready(function(){
                        'content' : 'The Hackathon was divided in two parts Android Hack and Wear Hack, with main focus on wear. The app idea could belong to any of the app categories available on the play store. Brownie points awarded to apps focusing on Education, Health, Information Access, Women Security, Disaster Management'
                     },
         'myBtn12' : {
-                        'heading' : 'Google Cloud Platform And WTM Launch',
+                        'heading' : 'Google Cloud Platform And WTM',
                         'imgSrc'  : './static/workshop_wtm_cloudnext.jpg',
                         'content' : 'Introduction to Google Cloud as a platform to host mobile apps and using App Engine for backend. Also had a one hour introduction of GDG Women Community.'
                                 }
