@@ -241,19 +241,22 @@ a {
 
 
 
-  #navbar{
-    display: none;
+  #navbar {
+    display: visible;
+    height: 0px;
   }
 
   #navbar .icon {
-      display: none;
+      display: visible;
   }
 
-  #navbar a:not(:first-child) {display: none;}
+  #navbar a:not(:first-child) {display: visible;}
 
   #navbar a.icon {
+
     float: right;
     display: block;
+
   }
 
 #navbar.responsive {position: relative;}
@@ -290,12 +293,12 @@ a {
 .nav li  {
 
   display: none;
-  height: 140px;
+  height: 200px;
   width: 100%;
   box-sizing: border-box;
   display: inline-block;
   background-color: black;
-  margin: -30 0 0 0;
+  margin: -80 0 0 0;
   float: none;
   text-align: center;
 
