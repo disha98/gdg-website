@@ -470,34 +470,7 @@ p {
     padding-bottom : 5%;
     /*margin-top: 14.8%;*/
 }
-@media only screen and (max-device-width: 414px) {
-    #events {
-      padding: 10%;
-    }
-    .workshop_modal_img{
-      height: 100%;
-      width: 100%;
-    }
-    #footer{
-      width: 100%;
-      height: 100%;
-      padding: 10%;
-    }
-    #footer p{
-      font-size: 2em;
-      color: white;
-    }
-    #cont{
-      color: white;
-      font-size: 10em;
-    }
-    #team {
-      /*background-color: #1C2842;*/
-      width: 100%;
-      padding: 10%;
 
-  }
-}
 #cont{
   color: white;
   font-size: 3em;
@@ -629,75 +602,6 @@ p {
   height:40%;
 }
 
-@media(max-device-width: 1200px)
-{
-  .workshop_modal_content{
-    flex-direction:column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .workshop_modal_container {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    font-family: 'Open Sans', sans-serif;
-    float:left;
-    background-color: rgb(0,0,48);
-    color: #fefefe;
-    padding: 0px 0px 0px 0px;
-    border: 2px solid white;
-    border-radius: 5px;
-    width: 85%;
-    height: 100%;
-    margin: auto;
-  }
-  .close{
-    width: 100%;
-    height: 10%;
-    float: right;
-    padding-right: 100px;
-  }
-  #close-btn{
-    color: #fefefe;
-    float: right;
-    cursor: pointer;
-    font-size: 40px;
-    padding-right:50px;
-  }
-  .workshop_modal_description
-  {
-    display:flex;
-    flex-direction:column;
-    align-items: space-around;
-    justify-content: space-around;
-    width: 100%;
-    height:80%;
-    margin: 0px 0px 0px 0px;
-  }
-  .workshop_modal_img {
-    display: inline-block;
-    height: 60%;
-    width: 90%;
-  }
-  #workshop_modal_text_para{
-    font-size: 30px;
-    margin-top: -3%;
-    font-family: 'Open Sans', sans-serif;
-    padding: 20px 50px 50px 50px;
-  }
-
-  #workshop_modal_title_para{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 50px;
-    margin-top: -3%;
-    font-family: 'Open Sans', sans-serif;
-  }
-}
 
 /************************ Modal CSS Ends ********************************/
 .workshop_container {
@@ -747,56 +651,50 @@ p {
 
 /***************************************Responsive********************************************************/
 
- @media(max-device-width: 1100px)
-        {
-        .workshop_cont {
-          font-family: 'Open Sans', sans-serif;
-          display: inline-block;
-          width: 40%;
-          height: 32%;
-          margin: auto;
-          margin-left: 3%;
-        }
-        #workshop_heading {
-      padding-top: 5%;
-      text-align: center;
-      color: white;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 60px;
-      font-weight: bold;
-      margin-top: 0px;
-      margin-bottom: 3%;
+/** Tablets **/
+@media only screen and (max-device-width: 768px) {
+    #events {
+      padding: 10%;
     }
-
-        .workshop_image{
-          /*height: 320px;*/
-          height: 100%;
-          width: 100%
-
-        }
-
-        .workshop_container h3 {
-          font-family: 'Open Sans', sans-serif;
-          color: black;
-          background-color: white;
-          font-size: 5px;
-          font-weight: bold;
-        }
+    .workshop_modal_img{
+      height: 100%;
+      width: 100%;
+    }
+    #footer{
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+    }
+    #footer p{
+      font-size: 2em;
+      color: white;
+    }
+    #cont{
+      color: white;
+      font-size: 10em;
+    }
+    #team {
+      /*background-color: #1C2842;*/
+      width: 100%;
+      padding: 10%;
   }
-    @media(max-device-width: 414px)
-        {
-        .workshop_cont {
+  .workshop_cont {
           font-family: 'Open Sans', sans-serif;
           display: inline-block;
-           width: 100%;
-           height: 75%;
-           margin-left: -4%;
+           width: 40%;
+           height: 27%;
+           margin-left: 0%;
            margin-top: 10%;
+           padding-bottom: 20%;
         }
 
         .workshop_image{
           height: 100%;
           width: 100%
+        }
+
+        .workshop_title{
+        	font-size: 40px;
         }
 
         #workshop_heading {
@@ -804,12 +702,147 @@ p {
         text-align: center;
         color: white;
         font-family: 'Open Sans', sans-serif;
-        font-size: 60px;
+        font-size: 90px;
         font-weight: bold;
         margin-top: 0px;
-      margin-bottom: 0.5%;
     }
+}
+/** Tablets **/
+
+
+        	/** Mobiles **/
+@media only screen and (max-device-width: 414px) {
+
+	body{
+		margin-right: -60px;
+	}
+
+    #events {
+      padding: 10%;
+    }
+    .workshop_modal_img{
+      height: 100%;
+      width: 100%;
+    }
+    #footer{
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+    }
+    #footer p{
+      font-size: 2em;
+      color: white;
+    }
+    #cont{
+      color: white;
+      font-size: 10em;
+    }
+    #team {
+      /*background-color: #1C2842;*/
+      width: 100%;
+      padding: 10%;
+  }
+  .workshop_cont {
+          font-family: 'Open Sans', sans-serif;
+          display: inline-block;
+           width: 90%;
+           height: 45%;
+           margin-left: 0%;
+           margin-top: 10%;
+           padding-bottom: 18%;
         }
+
+        .workshop_image{
+          height: 100%;
+          width: 100%
+        }
+
+        .workshop_title{
+        	font-size: 50px;
+        }
+
+        #workshop_heading {
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 90px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+}
+/** Mobiles **/
+
+
+@media only screen and (max-device-width: 1200px)
+{
+
+  .workshop_modal_content{
+  	display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .workshop_modal_container {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(0,0,48);
+    color: #fefefe;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 85%;
+    height: 90%;
+    margin: auto;
+  }
+
+  .close{
+    width: 100%;
+    height: 10%;
+    float: right;
+    padding-right: 100px;
+  }
+  #close-btn{
+    color: #fefefe;
+    float: right;
+    cursor: pointer;
+    font-size: 50px;
+    padding-right:30px;
+  }
+  .workshop_modal_description
+  {
+    display:flex;
+    flex-direction:column;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 100%;
+    height:80%;
+    margin: 0px 0px 0px 0px;
+  }
+  .workshop_modal_img {
+    display: inline-block;
+    height: 50%;
+    width: 80%;
+    margin-left: 10px;
+  }
+  #workshop_modal_text_para{
+    font-size: 40px;
+    margin-top: -3%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -160px;
+    padding-left: 75px;
+    padding-right: 60px;
+  }
+
+  #workshop_modal_title_para{
+    padding-top: 0px;
+    margin-left: 7px;
+    font-size: 60px;
+    margin-top: 1%;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
 
 /***************************************** Workshops CSS Ends ******************************************/
 
