@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html,body {
+  margin: 0px;
   padding: 0px;
 }
 
@@ -227,13 +228,24 @@ a {
 }
 
 
-@media only screen and (max-device-width: 414px) {
+@media only screen and (max-device-width: 768px) {
 
 
+html,body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin-top: -15;
+  margin-left: -5%;
+  margin-right: -5%;
+}
 
 .bgimage1, .bgimage2, .bgimage3, .bgimage4, .bgimage5 {
  
   background-attachment: scroll;
+  background-position: center;
   padding: 10%;
   width: 100%;
  
@@ -292,13 +304,13 @@ a {
 
 .nav li  {
 
-  display: none;
-  height: 200px;
+  display: visible;
+  height: 100px;
   width: 100%;
   box-sizing: border-box;
   display: inline-block;
   background-color: black;
-  margin: -80 0 0 0;
+  margin: 0 0 0 0;
   float: none;
   text-align: center;
 
@@ -307,18 +319,18 @@ a {
 
 .nav li a {
 
-    height: 120px;
+    height: 140px;
     width: 100%;
     box-sizing: border-box;
     display: inline-block;
     color: white;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
     padding: 20px;
     text-decoration: none;
     font-size: 40px;
     font-weight: 600;
-    overflow: auto;
+    /*overflow: auto;*/
 
 }
 
@@ -429,6 +441,7 @@ p {
     width: 100%;
     text-align: center;
     padding: 10%;
+    
 }
 
 #text1 {
