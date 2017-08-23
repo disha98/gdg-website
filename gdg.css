@@ -927,6 +927,16 @@ p {
     
   } 
 
+  #hteam {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white; 
+    margin-top: 10px;
+    text-align: center;
+  }
+
   .members li{
     padding-left: 5%;
     
@@ -944,7 +954,7 @@ p {
 
 } 
 
-@media(max-device-width : 414px){
+@media(max-device-width : 770px){
 
   #team
   {
@@ -954,9 +964,19 @@ p {
 
 
   .team_section{
-    padding-left: 0;
+    padding-left: 7%;
     
   } 
+
+  #hteam {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white; 
+    margin-top: 10px;
+    padding-left: 13%;
+  }
 
   .members li{
     margin-left: 8%;
@@ -1074,13 +1094,13 @@ p {
 	transform-origin: 50% 0%;
 }
 
-.info-back-m1, .info-back-m2, .info-back-m3, .info-back-m4, .info-back-m5, .info-back-m6, .info-back-m7, .info-back-m8, .info-back-m9, .info-back-m10 {
+.info-back-1, .info-back-2, .info-back-3, .info-back-4, .info-back-5, .info-back-6, .info-back-7, .info-back-8, .info-back-9, .info-back-10 {
 	transform: translate3d(0,0,-200px) rotate3d(1,0,0,90deg);
 	background: black;
 	opacity: 0;
 }
 
-.info-back-m1 > p, .info-back-m2 > p, .info-back-m3 > p, .info-back-m4 > p, .info-back-m5 > p, .info-back-m6 > p, .info-back-m7 > p, .info-back-m8 > p, .info-back-m9 > p, .info-back-m10 > p {
+.info-back-1 > p, .info-back-2 > p, .info-back-3 > p, .info-back-4 > p, .info-back-5 > p, .info-back-6 > p, .info-back-7 > p, .info-back-8 > p, .info-back-9 > p, .info-back-10 > p {
 	position: relative;
 	top: 30px;
 	color: white
@@ -1091,27 +1111,27 @@ p {
 
 @media(max-device-width : 1100px){
 
-  .info-back > p {
+  .info-back-1 > p, .info-back-2 > p, .info-back-3 > p, .info-back-4 > p, .info-back-5 > p, .info-back-6 > p, .info-back-7 > p, .info-back-8 > p, .info-back-9 > p, .info-back-10 > p {
     position: relative;
-    top: 100px;
+    top: 72px;
     color: white
-    line-height: 1em;
-    font-size: 20px;
+    line-height: 100%;
+    font-size: 26px;
   }
 }
 
-@media(max-device-width : 414px){
+@media(max-device-width : 770px){
 
-  .info-back > p {
+  .info-back-1 > p, .info-back-2 > p, .info-back-3 > p, .info-back-4 > p, .info-back-5 > p, .info-back-6 > p, .info-back-7 > p, .info-back-8 > p, .info-back-9 > p, .info-back-10 > p {
     position: relative;
-    top: 100px;
-    color: white
-    line-height: 1em;
-    font-size: 18px;
+    top: 70px;
+    color: white;
+    line-height: 90%;
+    font-size: 24px;
   }
 }
 
-/* .member:hover .info-front{
+.member:hover .info-front{
 	transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
 	opacity: 0;
 }
@@ -1129,7 +1149,7 @@ p {
 .member:active .info-back{
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;
-} */
+}
 
 /******************************* Team CSS ENDS *************************/
 
