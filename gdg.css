@@ -256,6 +256,8 @@ body{
   #navbar {
     display: visible;
     height: 0px;
+    position: relative;
+    bottom: 80px;
   }
 
   #navbar .icon {
